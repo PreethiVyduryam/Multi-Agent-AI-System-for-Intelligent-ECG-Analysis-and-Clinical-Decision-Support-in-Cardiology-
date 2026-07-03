@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>Assessment Report</h2>
+
+    {% if patient %}
+    <div class="meta">
+        <p><strong>Patient ID:</strong> {{ patient.patient_id }}</p>
+        <p><strong>Name:</strong> {{ patient.name }}</p>
+        <p><strong>Age:</strong> {{ patient.age if patient.age is not none else "N/A" }}</p>
+        <p><strong>Sex:</strong> {{ patient.sex if patient.sex else "N/A" }}</p>
+    </div>
+    {% endif %}
+
+    {% if error %}
+        <div class="error-box">
+            {{ error }}
+        </div>
+    {% endif %}
+
+    {% if report %}
+        <pre class="report-box">{{ report }}</pre>
+
+        <div class="actions">
+            <a class="button-link" href="{{ url_for('web.history', patient_id=patient.patient_id) }}">
+                View Patient History
+            </a>
+            <a class="button-link secondary" href="{{ url_for('web.index') }}">
+                New Assessment
+            </a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

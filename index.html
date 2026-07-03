@@ -1,0 +1,180 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>New Cardiology Assessment</h2>
+
+    <div class="actions">
+        <button type="button" id="load-demo-btn">Load Demo Case</button>
+        <button type="button" id="clear-form-btn" class="button-link secondary">Clear Form</button>
+    </div>
+
+    <form method="post" action="{{ url_for('web.submit_case') }}" class="form-grid" id="assessment-form">
+
+        <label>
+            Patient ID
+            <input
+                type="text"
+                name="patient_id"
+                value="{{ form_data.get('patient_id', '') }}"
+                placeholder="e.g. P001"
+                data-demo="P001"
+                required
+            >
+        </label>
+
+        <label>
+            Name
+            <input
+                type="text"
+                name="name"
+                value="{{ form_data.get('name', '') }}"
+                placeholder="e.g. Jane Doe"
+                data-demo="Jane Doe"
+                required
+            >
+        </label>
+
+        <label>
+            Age
+            <input
+                type="number"
+                name="age"
+                value="{{ form_data.get('age', '') }}"
+                placeholder="e.g. 52"
+                data-demo="52"
+            >
+        </label>
+
+        <label>
+            Sex
+            <input
+                type="text"
+                name="sex"
+                value="{{ form_data.get('sex', '') }}"
+                placeholder="e.g. F / M / Other"
+                data-demo="F"
+            >
+        </label>
+
+        <label class="full-width">
+            Symptoms
+            <input
+                type="text"
+                name="symptoms"
+                value="{{ form_data.get('symptoms', '') }}"
+                placeholder="chest pain, palpitations"
+                data-demo="chest pain, palpitations"
+                required
+            >
+        </label>
+
+        <label class="full-width">
+            Patient State
+            <textarea
+                name="patient_state"
+                rows="3"
+                data-demo="Intermittent chest discomfort with awareness of heartbeat, worse with exertion."
+                required
+            >{{ form_data.get('patient_state', '') }}</textarea>
+        </label>
+
+        <label class="full-width">
+            Medical History
+            <input
+                type="text"
+                name="medical_history"
+                value="{{ form_data.get('medical_history', '') }}"
+                placeholder="e.g. anxiety, GERD"
+                data-demo="anxiety, GERD"
+            >
+        </label>
+
+        <label class="full-width">
+            Clinician Question
+            <textarea
+                name="clinician_question"
+                rows="3"
+                data-demo="What are the likely cardiac considerations and recommended next tests?"
+            >{{ form_data.get('clinician_question', '') }}</textarea>
+        </label>
+
+        <label class="full-width">
+            ECG Data
+            <textarea
+                name="ecg_data"
+                rows="3"
+                data-demo="ECG shows irregular rhythm with possible atrial fibrillation pattern."
+            >{{ form_data.get('ecg_data', '') }}</textarea>
+        </label>
+
+        <label>
+            Heart Rate
+            <input
+                type="number"
+                name="heart_rate"
+                value="{{ form_data.get('heart_rate', '') }}"
+                data-demo="108"
+            >
+        </label>
+
+        <label>
+            Systolic BP
+            <input
+                type="number"
+                name="systolic_bp"
+                value="{{ form_data.get('systolic_bp', '') }}"
+                data-demo="128"
+            >
+        </label>
+
+        <label>
+            Diastolic BP
+            <input
+                type="number"
+                name="diastolic_bp"
+                value="{{ form_data.get('diastolic_bp', '') }}"
+                data-demo="82"
+            >
+        </label>
+
+        <label>
+            Oxygen Saturation
+            <input
+                type="number"
+                name="oxygen_saturation"
+                value="{{ form_data.get('oxygen_saturation', '') }}"
+                data-demo="98"
+            >
+        </label>
+
+        <div class="full-width">
+            <button type="submit">Generate Report</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    const form = document.getElementById("assessment-form");
+    const loadDemoBtn = document.getElementById("load-demo-btn");
+    const clearFormBtn = document.getElementById("clear-form-btn");
+
+    loadDemoBtn.addEventListener("click", () => {
+        const fields = form.querySelectorAll("input, textarea");
+        fields.forEach((field) => {
+            const demoValue = field.dataset.demo;
+            if (demoValue !== undefined) {
+                field.value = demoValue;
+            }
+        });
+    });
+
+    clearFormBtn.addEventListener("click", () => {
+        const fields = form.querySelectorAll("input, textarea");
+        fields.forEach((field) => {
+            if (field.type === "submit" || field.type === "button") return;
+            field.value = "";
+        });
+    });
+</script>
+{% endblock %}

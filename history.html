@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>Patient History</h2>
+
+    {% if patient %}
+        <div class="meta">
+            <p><strong>Patient ID:</strong> {{ patient.patient_id }}</p>
+            <p><strong>Name:</strong> {{ patient.name }}</p>
+            <p><strong>Age:</strong> {{ patient.age if patient.age is not none else "N/A" }}</p>
+            <p><strong>Sex:</strong> {{ patient.sex if patient.sex else "N/A" }}</p>
+        </div>
+    {% else %}
+        <div class="error-box">Patient not found.</div>
+    {% endif %}
+
+    {% if visits %}
+        {% for visit in visits %}
+            <div class="visit-card">
+                <h3>Visit {{ loop.index }}</h3>
+                <p><strong>Timestamp:</strong> {{ visit.visit_timestamp }}</p>
+                <p><strong>Patient State:</strong> {{ visit.patient_state }}</p>
+                <p><strong>Clinician Question:</strong> {{ visit.clinician_question }}</p>
+                <p><strong>ECG Data:</strong> {{ visit.ecg_data if visit.ecg_data else "N/A" }}</p>
+
+                <details>
+                    <summary>Show Generated Report</summary>
+                    <pre class="report-box small">{{ visit.generated_report }}</pre>
+                </details>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No visits recorded for this patient yet.</p>
+    {% endif %}
+
+    <div class="actions">
+        <a class="button-link secondary" href="{{ url_for('web.index') }}">
+            Back to New Assessment
+        </a>
+    </div>
+</div>
+{% endblock %}
