@@ -1,0 +1,27 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+1. Possible cardiac considerations
+- Possible atrial fibrillation given current and prior ECG descriptions, palpitations, and elevated heart rate (Confidence: high)
+- Sinus tachycardia or other supraventricular arrhythmia (Confidence: medium)
+- Non-cardiac causes for chest discomfort, such as GERD or anxiety, as noted in medical history (Confidence: medium)
+
+2. Recommended next tests or monitoring
+- Formal 12-lead ECG for definitive rhythm interpretation and characterization.
+- Extended cardiac rhythm monitoring (e.g., Holter monitor) to assess arrhythmia burden and correlation with symptoms.
+- Echocardiogram to evaluate cardiac structure and function.
+- Laboratory tests including thyroid function and electrolytes.
+
+3. Immediate safety note
+Prompt clinician evaluation is highly recommended for these symptoms. Seek immediate medical attention if chest pain intensifies, radiates, or is accompanied by shortness of breath, dizziness, syncope, or severe palpitations.
+
+4. Plain-language summary
+The patient presents with ongoing chest discomfort and palpitations, an elevated heart rate, and an ECG description suggestive of an irregular rhythm like atrial fibrillation, consistent with findings from a previous visit. While anxiety and GERD are in the patient's history, the cardiac symptoms and ECG findings necessitate a thorough cardiology assessment.
+
+5. Evidence summary
+- ECG analysis tool results indicate a possible rhythm irregularity from the provided ECG description, suggesting atrial fibrillation or another arrhythmia may need consideration.
+- Prior patient history also noted an ECG showing an irregular rhythm with a possible atrial fibrillation pattern.
+
+6. Safety disclaimer
+This response is provided for cardiology decision support only and is not medical advice, nor does it constitute a diagnosis. A qualified healthcare professional must review and interpret all clinical information, tests, and patient history to make appropriate medical decisions.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

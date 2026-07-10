@@ -1,4 +1,4 @@
-from typing import Optional
+from app.rag.evidence_service import build_evidence_context from typing import Optional
 
 from app.models.patient import PatientCase
 from app.prompts.cardiology_prompt import (
@@ -61,7 +61,7 @@ class CardiologyAssistant:
 
         raw_report = self.llm.generate(
             system_prompt=system_prompt,
-            user_prompt=user_prompt,
+evidence_context = build_evidence_context(patient_case)            user_prompt=user_prompt,
             tools=tools,
         )
 
