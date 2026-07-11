@@ -54,9 +54,20 @@ A short paragraph that explicitly recommends clinician evaluation and mentions u
 4. Plain-language summary
 A short paragraph.
 
-5. Evidence summary
-- bullet 1
-- bullet 2
+5. Evidence Summary
+
+Begin this section with:
+
+Clinical reasoning was supported using evidence retrieved from the local clinical knowledge repository.
+
+Then include:
+
+Evidence Sources
+- List the relevant guideline(s) or research evidence us ed (e.g., NICE, ESC, or peer-reviewed research) as bullet points where supported by the retrieved evidence.
+
+Summary
+- Explain how the retrieved evidence supports the clinical reasoning and recommendations.
+- Keep the explanation concise and evidence-based.
 
 6. Safety disclaimer
 One short paragraph stating clearly that this is not medical advice and not a confirmed diagnosis.
