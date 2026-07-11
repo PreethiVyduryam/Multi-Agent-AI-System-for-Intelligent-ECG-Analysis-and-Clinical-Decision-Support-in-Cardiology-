@@ -1,8 +1,0 @@
-Chest pain evidence:
-Chest pain can be caused by cardiac and non-cardiac conditions. Cardiac causes may include angina, acute coronary syndrome, arrhythmia-related symptoms, or structural heart disease. Assessment commonly considers symptoms, ECG findings, vital signs, cardiovascular risk factors, and cardiac biomarkers such as troponin.
-
-Clinical relevance:
-In a patient with chest pain that worsens on exertion, clinicians may consider ECG assessment, troponin testing, echocardiography, and further cardiac investigation depending on urgency and clinical judgement.
-
-Source:
-NICE chest pain guidance and standard cardiology clinical assessment principles.

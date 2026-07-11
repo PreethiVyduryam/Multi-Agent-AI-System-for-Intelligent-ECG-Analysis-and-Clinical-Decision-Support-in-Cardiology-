@@ -1,0 +1,16 @@
+ {
+  "id": "NICE_HF_001",
+  "title": "Chronic heart failure in adults: diagnosis and management",
+  "organisation": "NICE",
+  "guideline": "NG106",
+  "year": 2018,
+  "topic": "Heart Failure",
+  "keywords": [
+    "heart failure",
+    "breathlessness",
+    "fatigue",
+    "echocardiogram",
+    "cardiac function"
+  ],
+  "summary": "Assessment of suspected heart failure includes clinical evaluation, appropriate investigations, and assessment of cardiac structure and function using techniques such as echocardiography."
+}

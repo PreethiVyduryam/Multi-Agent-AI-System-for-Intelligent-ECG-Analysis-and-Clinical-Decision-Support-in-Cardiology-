@@ -1,0 +1,16 @@
+{
+  "id": "NICE_CP_001",
+  "title": "Chest pain of recent onset: assessment and diagnosis",
+  "organisation": "NICE",
+  "guideline": "CG95",
+  "year": 2016,
+  "topic": "Chest Pain",
+  "keywords": [
+    "chest pain",
+    "angina",
+    "acute coronary syndrome",
+    "troponin",
+    "ECG"
+  ],
+  "summary": "Patients presenting with chest pain should undergo prompt clinical assessment, ECG evaluation, and appropriate cardiac biomarker testing when acute coronary syndrome is suspected. Further investigations should be guided by the clinical presentation and risk assessment."
+}

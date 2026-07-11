@@ -1,8 +1,0 @@
-Atrial fibrillation evidence:
-Atrial fibrillation may present with palpitations, irregular rhythm, chest discomfort, breathlessness, fatigue, or dizziness. A formal 12-lead ECG is commonly used to confirm rhythm abnormality. If symptoms are intermittent, ambulatory rhythm monitoring such as Holter monitoring or an event recorder may be considered.
-
-Clinical relevance:
-In a patient with palpitations, elevated heart rate, and an ECG report describing irregular rhythm or possible atrial fibrillation, atrial fibrillation or another supraventricular arrhythmia should be considered as a possible cardiac explanation.
-
-Source:
-NICE atrial fibrillation guidance and standard cardiology clinical assessment principles.

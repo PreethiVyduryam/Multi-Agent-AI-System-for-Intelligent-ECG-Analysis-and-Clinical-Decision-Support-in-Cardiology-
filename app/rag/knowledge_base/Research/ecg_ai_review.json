@@ -1,0 +1,14 @@
+{
+  "id": "RES_ECG_REVIEW_001",
+  "title": "Review of Artificial Intelligence in Electrocardiography",
+  "organisation": "Peer-reviewed Research",
+  "year": 2024,
+  "topic": "Electrocardiography",
+  "keywords": [
+    "electrocardiography",
+    "AI",
+    "ECG interpretation",
+    "clinical support"
+  ],
+  "summary": "Recent reviews conclude that AI-assisted ECG interpretation improves efficiency and diagnostic support when integrated into clinician workflows with appropriate validation."
+}

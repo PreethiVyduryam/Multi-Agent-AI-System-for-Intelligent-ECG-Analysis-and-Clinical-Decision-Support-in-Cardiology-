@@ -1,0 +1,16 @@
+{
+  "id": "NICE_AF_001",
+  "title": "Atrial fibrillation: diagnosis and management",
+  "organisation": "NICE",
+  "guideline": "NG196",
+  "year": 2021,
+  "topic": "Atrial Fibrillation",
+  "keywords": [
+    "atrial fibrillation",
+    "palpitations",
+    "irregular rhythm",
+    "ECG",
+    "Holter monitor"
+  ],
+  "summary": "Patients with suspected atrial fibrillation should undergo a 12-lead ECG for rhythm confirmation. When symptoms are intermittent, ambulatory rhythm monitoring such as Holter monitoring may be appropriate."
+}

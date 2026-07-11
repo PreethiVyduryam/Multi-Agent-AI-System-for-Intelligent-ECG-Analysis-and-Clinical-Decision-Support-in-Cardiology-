@@ -1,0 +1,14 @@
+{
+  "id": "RES_LLM_001",
+  "title": "Large Language Models for Clinical Reasoning",
+  "organisation": "Peer-reviewed Research",
+  "year": 2024,
+  "topic": "Clinical Reasoning",
+  "keywords": [
+    "large language model",
+    "clinical reasoning",
+    "decision support",
+    "healthcare AI"
+  ],
+  "summary": "Large language models demonstrate promising clinical reasoning capabilities but should be supported with reliable evidence retrieval and human clinical review."
+}

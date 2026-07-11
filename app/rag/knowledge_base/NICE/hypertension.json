@@ -1,0 +1,15 @@
+{
+  "id": "NICE_HTN_001",
+  "title": "Hypertension in adults: diagnosis and management",
+  "organisation": "NICE",
+  "guideline": "NG136",
+  "year": 2019,
+  "topic": "Hypertension",
+  "keywords": [
+    "hypertension",
+    "blood pressure",
+    "systolic pressure",
+    "cardiovascular risk"
+  ],
+  "summary": "Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors."
+}

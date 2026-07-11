@@ -1,0 +1,15 @@
+{
+  "id": "RES_RAG_001",
+  "title": "Retrieval-Augmented Generation for Clinical Decision Support",
+  "organisation": "Peer-reviewed Research",
+  "year": 2024,
+  "topic": "Retrieval-Augmented Generation",
+  "keywords": [
+    "RAG",
+    "retrieval augmented generation",
+    "clinical decision support",
+    "LLM",
+    "evidence retrieval"
+  ],
+  "summary": "Research indicates that Retrieval-Augmented Generation can improve transparency and reduce unsupported outputs by grounding language model responses in retrieved evidence before generation."
+}

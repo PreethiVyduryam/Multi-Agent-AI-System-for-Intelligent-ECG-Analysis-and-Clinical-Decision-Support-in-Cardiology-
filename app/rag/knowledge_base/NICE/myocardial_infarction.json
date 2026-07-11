@@ -1,0 +1,16 @@
+{
+  "id": "NICE_MI_001",
+  "title": "Acute coronary syndromes",
+  "organisation": "NICE",
+  "guideline": "NG185",
+  "year": 2020,
+  "topic": "Myocardial Infarction",
+  "keywords": [
+    "myocardial infarction",
+    "heart attack",
+    "troponin",
+    "ECG",
+    "acute coronary syndrome"
+  ],
+  "summary": "Patients with suspected acute coronary syndrome should receive prompt assessment including ECG and cardiac biomarkers. Clinical decisions should be based on symptoms, investigation results, and risk assessment."
+}

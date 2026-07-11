@@ -1,0 +1,16 @@
+{
+  "id": "ESC_ACS_001",
+  "title": "ESC Guidelines for Acute Coronary Syndromes",
+  "organisation": "European Society of Cardiology",
+  "guideline": "ESC ACS",
+  "year": 2023,
+  "topic": "Acute Coronary Syndrome",
+  "keywords": [
+    "acute coronary syndrome",
+    "chest pain",
+    "troponin",
+    "ECG",
+    "myocardial infarction"
+  ],
+  "summary": "Patients presenting with symptoms suggestive of acute coronary syndrome should undergo prompt ECG assessment and cardiac biomarker evaluation. Clinical management should be guided by risk stratification and diagnostic findings."
+}

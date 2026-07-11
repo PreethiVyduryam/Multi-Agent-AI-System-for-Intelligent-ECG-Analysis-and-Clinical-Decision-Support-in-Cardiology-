@@ -2,8 +2,9 @@ from app.rag.retriever import retrieve_evidence
 
 
 def build_evidence_context(patient_case) -> str:
-    """Build a retrieval query from the patient case and return evidence context."""
-    query_parts: list[str] = []
+    """Build a retrieval query from the patient case and return formatted evidence."""
+
+    query_parts = []
 
     if patient_case.symptoms:
         query_parts.extend(patient_case.symptoms)
@@ -21,12 +22,29 @@ def build_evidence_context(patient_case) -> str:
         query_parts.append(patient_case.clinician_question)
 
     query = " ".join(query_parts)
+
     evidence_items = retrieve_evidence(query)
 
     if not evidence_items:
-        return "No specific local evidence was retrieved for this case."
+        return "No relevant evidence was retrieved."
 
-    return "\n\n".join(
-        f"Retrieved Evidence {index + 1}:\n{item}"
-        for index, item in enumerate(evidence_items)
-    )
+    formatted_items = []
+
+    for item in evidence_items:
+
+        formatted_items.append(
+            f"""
+Title: {item['title']}
+
+Organisation: {item['organisation']}
+
+Year: {item['year']}
+
+Topic: {item['topic']}
+
+Summary:
+{item['summary']}
+"""
+        )
+
+    return "\n\n----------------------------------------\n\n".join(formatted_items)

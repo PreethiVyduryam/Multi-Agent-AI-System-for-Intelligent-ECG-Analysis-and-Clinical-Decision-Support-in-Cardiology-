@@ -1,0 +1,15 @@
+{
+  "id": "RES_AI_ECG_001",
+  "title": "Artificial Intelligence for ECG Interpretation",
+  "organisation": "Peer-reviewed Research",
+  "year": 2023,
+  "topic": "AI ECG Interpretation",
+  "keywords": [
+    "ECG",
+    "artificial intelligence",
+    "arrhythmia",
+    "deep learning",
+    "cardiology"
+  ],
+  "summary": "Artificial intelligence methods can assist clinicians by identifying ECG abnormalities and supporting cardiovascular diagnosis while requiring clinician oversight for final decisions."
+}
