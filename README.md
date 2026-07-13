@@ -1,178 +1,223 @@
-# 🫀 Cardiology AI Agent
+# 🫀 Multi-Agent AI System for Intelligent ECG Analysis and Clinical Decision Support in Cardiology
 
-A cardiology-focused AI decision-support prototype that combines a Large Language Model, tool integration, persistent patient memory, and safety guardrails in a web-based interface.
+A cardiology relate multi-agent AI decision-support system that combines multilple agents such as a Large Language Model (LLM), Retrieval-Augmented Generation (RAG), ECG analysis, patient memory, and safety-aware reasoning in a web application.
 
-## Overview
+---
 
-This project was developed as an academic prototype to explore how modern AI methods can be applied to a healthcare-related workflow in a more structured and responsible way. Instead of acting as a simple chatbot, the system is designed as a modular AI agent that:
+# Overview
 
-- accepts structured patient input
-- uses Gemini for clinical-style reasoning
-- integrates supporting tools such as ECG analysis and literature search
-- stores patient history across visits
-- applies a safety layer before returning outputs
-- provides a Flask-based web interface
+This project was developed as an academic prototype to explore how modern Artificial Intelligence techniques can support cardiology-related clinical decision making in a more efficient  and evidence-grounded manner.
 
-## Features
+Unlike a traditional chatbot, the system is designed as a modular multi-agent architecture which:
 
-- Structured patient input form
-- Cardiology-oriented report generation
-- Gemini API integration
-- ECG analysis tool
-- Literature search support
-- SQLite-based patient memory
-- Safety layer with disclaimers and clinician-review prompts
-- Demo case loading
-- Patient history view
-- Automated tests with pytest
+- Accepts structured patient information
+- Uses Google's Gemini model for clinical reasoning
+- Retrieves supporting evidence from a local Retrieval-Augmented Generation (RAG) knowledge repository
+- Integrates ECG analysis tools
+- Stores patient history across consultations
+- Applies a safety layer before presenting results
+- Provides a Flask-based web interface
 
-## Tech Stack
+The project was developed as part of an MSc Data Science and Computational Intelligence dissertation exploring the use of Multi-Agent AI and Retrieval-Augmented Generation for intelligent ECG analysis and clinical decision support in Cardiology.
 
-- **Backend:** Python
-- **Web Framework:** Flask
-- **Database:** SQLite
-- **LLM Provider:** Gemini API
-- **Testing:** pytest
+-------
+
+# Features
+
+- Structured patient assessment form
+- AI-assisted cardiology report generation
+- Google Gemini API integration
+- ECG interpretation support
+- Retrieval-Augmented Generation (RAG)
+- Local structured clinical knowledge repository
+- NICE guideline evidence retrieval
+- ESC guideline evidence retrieval
+- Peer-reviewed research evidence retrieval
+- SQLite-based patient history memory
+- Safety layer with clinician review safeguards
+- Demo patient case loading
+- Patient history viewer
+- Automated testing using pytest
+
+------
+
+# Research Contribution
+
+This project extends an existing multi-agent cardiology decision-support prototype by integrating a Retrieval-Augmented Generation (RAG) pipeline.
+
+The enhancement retrieves relevant evidence from a structured local clinical knowledge repository containing summaries of NICE clinical guidelines, ESC clinical guidelines, and peer-reviewed research before generating clinical reasoning.
+Grounding AI-generated recommendations in a curated evidence improves transparency, supports clinician review and reduces the likelihood of unsupported responses while maintaining patient safety through an additional safety validation layer.
+
+--------
+
+# Tech Stack
+
+| Component | Technology |
+|------------|------------|
+| Programming Language | Python |
+| Web Framework | Flask |
+| Database | SQLite |
+| Large Language Model | Google Gemini |
+| Knowledge Repository | JSON |
+| Evidence Retrieval | Local Retrieval-Augmented Generation (RAG) |
+| Environment Variables | python-dotenv |
+| Testing | pytest |
+
+---
 
 ## Project Structure
 
-```text
-cardiology-ai-agent/
-│
-├── app.py
-├── requirements.txt
-├── .env
-├── database/
-├── services/
-├── tools/
-├── templates/
-├── static/
-├── tests/
-└── README.md
-```
+The project follows a modular structure organised into separate components.
 
-> Adjust the structure above if your actual file layout is slightly different.
+- `app/` – Core application modules.
+- `app/services/` – AI reasoning and supporting services.
+- `app/tools/` – ECG analysis and supporting tools.
+- `app/rag/` – Retrieval-Augmented Generation components and local knowledge repository.
+- `app/models/` – Patient data models.
+- `app/db/` – Database operations.
+- `templates/` – HTML templates.
+- `static/` – CSS and static assets.
+- `tests/` – Unit tests.
 
-## How to Run
+---
 
-### 1. Clone the repository
+# How to Run
+
+## 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone <repository-url>
+cd Multi-Agent-AI-System-for-Intelligent-ECG-Analysis-and-Clinical-Decision-Support-in-Cardiology
 ```
 
-### 2. Create a virtual environment
+---
+
+## 2. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate it:
+Activate it.
 
-**Windows**
+### Windows
+
 ```bash
 venv\Scripts\activate
 ```
 
-**macOS / Linux**
+### macOS / Linux
+
 ```bash
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+---
+
+## 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Create a `.env` file
+---
 
-In the root of the project, create a file named `.env`.
+## 4. Create an API key file
 
-Example:
-
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-If your project uses additional environment variables, add them in the same file.
-
-### 5. Get a Gemini API key
-
-Create a Gemini API key from Google AI Studio, then paste it into the `.env` file as shown above.
-
-### 6. Run the application
-
-```bash
-python app.py
-```
-
-If your project uses Flask directly, you can also run:
-
-```bash
-flask run
-```
-
-Then open the local URL shown in the terminal, usually:
+Create a file named:
 
 ```text
-http://127.0.0.1:5000/
+apikey.env
 ```
 
-## Running Tests
+Add the following:
 
-To run the test suite:
+```text
+GEMINI_API_KEY=your_gemini_api_key
+
+NCBI_TOOL=cardiology_agent
+NCBI_EMAIL=your_email@example.com
+```
+
+Generate a Gemini API key using Google AI Studio and replace `your_gemini_api_key` with your own key.
+
+---
+
+## 5. Run the application
+
+```bash
+python web_app.py
+```
+
+Open your browser and navigate to:
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+# Running Tests
+
+Run the automated test suite using:
 
 ```bash
 pytest
 ```
 
-## Example Workflow
+---
 
-1. Enter patient details such as age, sex, symptoms, vitals, ECG description, and clinician question.
-2. Submit the form through the web interface.
-3. The assistant validates the input and builds the reasoning context.
-4. Gemini generates a structured support response.
-5. Supporting tools such as ECG analysis and literature retrieval are used when relevant.
-6. The safety layer reviews the output and adds safeguards.
-7. The final report is displayed and stored for future patient history.
+# Example Workflow
 
-## Safety Notice
+1. Enter patient demographics, symptoms, vital signs, ECG description, medical history, and clinician question.
+2. The application validates the patient information.
+3. The RAG module retrieves relevant evidence from the local clinical knowledge repository.
+4. Google's Gemini model generates evidence-grounded clinical reasoning.
+5. ECG analysis tools provide additional clinical decision support.
+6. The safety layer reviews the generated report and applies appropriate safety disclaimers.
+7. A structured assessment report is presented and stored in the patient history database.
 
-This project is an academic prototype for research and demonstration purposes only.
+---
 
-It is **not** a medical device, **not** a diagnostic system, and **not** a substitute for a qualified clinician. Any outputs generated by the system must be reviewed by a licensed healthcare professional.
+# Safety Notice
 
-## Limitations
+This project is an academic prototype developed for research and educational purposes only.
 
-- ECG analysis is mock-based or simplified
-- Literature retrieval may be limited to metadata/snippets
-- Outputs are generated by an LLM and may be incomplete or incorrect
-- No real clinical validation has been performed
-- Not suitable for real-world medical deployment
+It is **not** a medical device, **not** a diagnostic system, and **must not** be used for real-world clinical decision making.
 
-## Future Improvements
+All generated outputs are intended solely as decision-support information and must always be reviewed by a qualified healthcare professional.
 
-- Real ECG signal-based analysis
-- Better evidence summarisation
-- More structured outputs
-- Improved UI/UX
-- Clinical evaluation with expert feedback
-- Secure authentication and stronger data governance
+---
 
-## Academic Context
+# Limitations
 
-This project was developed as part of an academic dissertation / final project in computing, focusing on AI agents, healthcare decision support, safety-aware system design, and evaluation.
+- ECG interpretation is based on ECG descriptions rather than raw ECG waveform data.
+- The knowledge repository contains curated summaries rather than full clinical guideline documents.
+- Evidence retrieval currently uses keyword-based matching rather than semantic vector retrieval.
+- AI-generated outputs may still contain inaccuracies and require clinician review.
+- The system has not undergone formal clinical validation.
 
-## License
+---
 
-Add your preferred license here, for example:
+# Future Improvements
 
-```text
-MIT License
-```
+- Semantic retrieval using vector databases (e.g., FAISS or ChromaDB)
+- Integration with real ECG waveform analysis
+- Multimodal ECG image interpretation
+- Clinical evaluation with cardiologists
+- Integration with Electronic Health Record (EHR) systems
+- Containerised deployment using Docker and cloud infrastructure
 
-## Author
+---
 
-Add your name here.
+# Academic Context
+
+This project was developed as part of an MSc Data Science and Computational Intelligence dissertation investigating the application of Multi-Agent Artificial Intelligence, Retrieval-Augmented Generation (RAG), a Large Language Model (LLM),  and clinical decision support systems for intelligent ECG analysis and evidence-grounded cardiology decision support.
+
+---
+
+# Author
+
+**Preethi Vyduryam**
+
+MSc Computing Dissertation Project
