@@ -4,7 +4,7 @@ A cardiology relate multi-agent AI decision-support system that combines multilp
 
 ---
 
-# Overview
+## Overview
 
 This project presents an academic prototype of a multi-agent Artificial Intelligence (AI) system for ECG-related clinical decision support in cardiology.
 
@@ -41,7 +41,7 @@ The safety layer is applied to the generated output before it is presented to th
 
 -------
 
-# Features
+## Features
 
 - Structured patient assessment
 - Patient demographic information
@@ -81,7 +81,7 @@ The enhanced system follows the following workflow:
 
 ------
 
-# Tech Stack
+## Tech Stack
 - Python
 - Flask
 - Google Gemini
@@ -187,9 +187,9 @@ The project follows a modular structure organised into separate components for a
 
 ---
 
-# How to Run
+## How to Run
 
-## 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone <repository-url>
@@ -198,7 +198,7 @@ cd Multi-Agent-AI-System-for-Intelligent-ECG-Analysis-and-Clinical-Decision-Supp
 
 ---
 
-## 2. Create a virtual environment
+### 2. Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -206,13 +206,13 @@ python -m venv venv
 
 Activate it.
 
-### Windows
+#### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-### macOS / Linux
+#### macOS / Linux
 
 ```bash
 source venv/bin/activate
@@ -220,7 +220,7 @@ source venv/bin/activate
 
 ---
 
-## 3. Install dependencies
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -228,7 +228,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Create an API key file
+### 4. Create an API key file
 
 Create a file named:
 
@@ -250,7 +250,7 @@ The API key must remain local and should not be committed to the Git repository.
 
 ---
 
-## 5. Run the application
+### 5. Run the application
 
 ```bash
 python web_app.py
@@ -258,7 +258,7 @@ python web_app.py
 
 ---
 
-# Running Tests
+### Running Tests
 
 The project uses pytest for automated testing. Run the automated test suite using:
 
@@ -269,16 +269,16 @@ pytest
 ---
 
 
-# Safety and Ethical Considerations
+## Safety and Ethical Considerations
 
 This project is an academic research prototype and is not a clinically validated medical system.
 
 The system is not:
 
--A medical device
--An autonomous diagnostic system
--A treatment recommendation system
--A replacement for professional clinical judgement
+- A medical device
+- An autonomous diagnostic system
+- A treatment recommendation system
+- A replacement for professional clinical judgement
 
 The generated outputs are intended to provide decision-support information only.
 
@@ -288,7 +288,7 @@ Clinician review remains an essential part of the workflow. Generated outputs sh
 
 ---
 
-# Limitations
+## Limitations
 
 The current prototype has several limitations:
 
@@ -303,7 +303,7 @@ The current prototype has several limitations:
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 - Future development could include:
 - Improving FLAN-T5 information extraction recall
@@ -319,7 +319,7 @@ The current prototype has several limitations:
 
 ---
 
-# Academic Context
+## Academic Context
 
 This project was developed as part of the MSc Data Science and Computational Intelligence Individual Research Project at Coventry University.
 
@@ -329,7 +329,7 @@ The project focuses on whether separating information extraction, evidence retri
 
 ---
 
-# Author
+## Author
 
 **Preethi Vyduryam**
 
