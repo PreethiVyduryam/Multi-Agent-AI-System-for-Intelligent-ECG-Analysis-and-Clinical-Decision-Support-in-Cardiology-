@@ -162,6 +162,7 @@ The component demonstrated strong performance in clinical reasoning, differentia
 The generated Gemini reports were evaluated using ROUGE-L and BERTScore against clinician-level reference reports.
 
 These metrics provide information about lexical and semantic similarity but cannot independently establish clinical correctness or safety.
+
 ---------
 
 ## Project Structure
