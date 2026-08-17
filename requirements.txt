@@ -2,10 +2,3 @@ Flask
 google-genai
 python-dotenv
 pytest
-transformers
-torch
-scikit-learn
-numpy
-rouge-score
-bert-score
-requests
