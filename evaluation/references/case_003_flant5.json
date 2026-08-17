@@ -1,0 +1,20 @@
+{
+  "case_id": "case_003",
+  "expected_information": {
+    "age": 59,
+    "sex": "F",
+    "symptoms": [
+      "exertional chest discomfort",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "medical_history": [
+      "hypertension",
+      "hyperlipidaemia"
+    ],
+    "heart_rate": "96 bpm",
+    "blood_pressure": "152/92 mmHg",
+    "oxygen_saturation": "96%",
+    "ecg": "Non-specific ST-T wave changes reported."
+  }
+}

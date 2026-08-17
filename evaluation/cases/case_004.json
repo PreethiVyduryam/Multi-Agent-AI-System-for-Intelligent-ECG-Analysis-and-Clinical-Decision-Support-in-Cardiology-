@@ -1,0 +1,23 @@
+{
+  "case_id": "case_004",
+  "patient_information": {
+    "age": 45,
+    "sex": "M",
+    "symptoms": [
+      "palpitations",
+      "dizziness",
+      "fatigue"
+    ],
+    "patient_state": "Patient reports intermittent episodes of a racing heartbeat associated with dizziness and fatigue.",
+    "medical_history": [
+      "hypertension"
+    ],
+    "vital_signs": {
+      "heart_rate": 108,
+      "systolic_bp": 140,
+      "diastolic_bp": 88,
+      "oxygen_saturation": 98
+    },
+    "ecg": "Occasional premature beats reported."
+  }
+}

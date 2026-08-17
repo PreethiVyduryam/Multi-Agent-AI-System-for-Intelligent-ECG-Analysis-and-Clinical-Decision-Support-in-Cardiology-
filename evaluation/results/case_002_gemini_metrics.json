@@ -1,0 +1,137 @@
+{
+  "case_id": "case_002",
+  "evaluation_type": "Requirement-based Gemini decision-support evaluation",
+  "criteria": [
+    {
+      "criterion": "age",
+      "result": "PASS"
+    },
+    {
+      "criterion": "sex",
+      "result": "PASS"
+    },
+    {
+      "criterion": "shortness of breath",
+      "result": "PASS"
+    },
+    {
+      "criterion": "dizziness",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hypertension",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hyperlipidaemia",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hyperlipidemia",
+      "result": "PASS"
+    },
+    {
+      "criterion": "ECG finding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Unsupported patient information",
+      "result": "PASS"
+    },
+    {
+      "criterion": "FLAN-T5 information integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "RAG evidence integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "DeepSeek-R1 reasoning integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical considerations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Recommended investigations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Information-gap awareness",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical safety language",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No confirmed diagnosis",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No treatment prescription",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Evidence grounding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Required output structure",
+      "result": "PASS"
+    }
+  ],
+  "summary": {
+    "passed": 20,
+    "failed": 0,
+    "total": 20,
+    "compliance": 1.0
+  },
+  "unsupported_patient_information": [],
+  "integration": {
+    "flant5_concepts": [
+      "palpitations",
+      "sinus rhythm",
+      "premature beats",
+      "premature beat",
+      "extra heartbeats",
+      "extra heartbeat"
+    ],
+    "rag_concepts": [
+      "nice",
+      "esc",
+      "guideline",
+      "guidelines",
+      "evidence",
+      "ambulatory",
+      "cardiovascular risk"
+    ],
+    "deepseek_concepts": [
+      "myocardial ischaemia",
+      "arrhythmia",
+      "coronary artery disease",
+      "premature beats"
+    ]
+  },
+  "clinical": {
+    "cardiac_considerations": [
+      "myocardial ischaemia",
+      "arrhythmia",
+      "coronary artery disease"
+    ],
+    "investigation_concepts": [
+      "ambulatory",
+      "holter",
+      "monitoring",
+      "echocardiography",
+      "thyroid function",
+      "thyroid function tests",
+      "electrolyte",
+      "electrolytes"
+    ],
+    "treatment_prescription_patterns": [],
+    "missing_required_sections": []
+  }
+}

@@ -1,0 +1,40 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+**Cardiology Decision-Support Report: Case_004**
+
+**1. Possible Cardiac Considerations**
+
+*   **Paroxysmal supraventricular tachycardia, including atrial fibrillation or atrial flutter (Possible, Moderate Confidence):** The patient, a 45-year-old male, reports intermittent episodes of a racing heartbeat associated with dizziness and fatigue. His heart rate is elevated at 108 bpm. A history of hypertension is a relevant risk factor for atrial fibrillation. (DeepSeek-R1 Reasoning; Patient Information; RAG Evidence)
+*   **Ventricular ectopy or non-sustained ventricular arrhythmia (Possible, Low-to-Moderate Confidence):** The ECG reports occasional premature beats. While the report does not specify if these are atrial or ventricular, premature ventricular beats can sometimes be associated with more significant ventricular arrhythmias, and the patient reports dizziness. (DeepSeek-R1 Reasoning; Patient Information)
+*   **Symptomatic sinus tachycardia (Possible, Moderate Confidence):** The elevated heart rate of 108 bpm could represent sinus tachycardia. This may be triggered by underlying conditions such as anemia, thyroid dysfunction, stress, infection, or medication effects, where the symptoms are related to the rapid rate itself rather than a primary arrhythmia. (DeepSeek-R1 Reasoning; Patient Information)
+
+**2. Recommended Next Tests or Monitoring**
+
+*   **Further ECG evaluation:** A full 12-lead ECG interpretation is needed to detail the precise rhythm, rate, QRS duration, QTc interval, and to clarify whether the reported premature beats are atrial or ventricular. (DeepSeek-R1 Reasoning)
+*   **Ambulatory rhythm monitoring:** Given the intermittent nature of the patient's symptoms (racing heartbeat, dizziness, fatigue), ambulatory rhythm monitoring (such as Holter monitoring) is appropriate. This is supported by RAG evidence which indicates that when symptoms of suspected atrial fibrillation are intermittent, ambulatory rhythm monitoring may be necessary for rhythm confirmation. (DeepSeek-R1 Reasoning; RAG Evidence)
+*   **Comprehensive cardiovascular risk assessment:** In light of the patient's hypertension (140/88 mmHg) and symptoms, a detailed cardiovascular risk assessment is recommended, including accurate blood pressure measurement. (RAG Evidence; Patient Information)
+*   **Laboratory investigations:** Missing information includes laboratory results such as electrolytes, thyroid function, hemoglobin, and renal function, which could help identify potential underlying causes for symptoms or risk factors. (DeepSeek-R1 Reasoning)
+*   **Detailed symptom history:** Further information on the duration and frequency of palpitation episodes, the precise relationship between dizziness and palpitations, and any history of syncope, near-syncope, angina, chest pain, or shortness of breath is needed. (DeepSeek-R1 Reasoning)
+*   **Medication review:** Current medications, particularly antihypertensive therapy, and any other agents that could affect heart rate or cause dizziness, are currently missing. (DeepSeek-R1 Reasoning)
+
+**3. Immediate Safety Note**
+
+The patient reports intermittent episodes of a racing heartbeat associated with dizziness. While a specific diagnosis cannot be made from the available information, dizziness with palpitations may suggest a possible arrhythmia that could temporarily affect cardiac output. Urgent clinician review is advised, especially if episodes are prolonged, become more frequent, worsen in severity, or are associated with syncope, severe dizziness, or chest pain.
+
+**4. Plain-Language Summary**
+
+A 45-year-old male with a history of hypertension is experiencing episodes of a racing heartbeat, dizziness, and fatigue. His heart rate is currently elevated at 108 beats per minute, and an ECG indicates occasional premature beats. These symptoms, along with his medical history, suggest possible underlying heart rhythm issues such as a fast heart rate originating from the upper or lower chambers of the heart, or potentially a fast but regular heart rhythm due to other body system factors. Further heart monitoring and a thorough medical evaluation are recommended to determine the exact cause of his symptoms and guide appropriate management.
+
+**5. Evidence Summary**
+
+The RAG evidence highlights the importance of 12-lead ECG for rhythm confirmation in patients with suspected atrial fibrillation and suggests ambulatory rhythm monitoring for intermittent symptoms. It also reinforces that hypertension management should involve accurate blood pressure measurement and comprehensive cardiovascular risk assessment, aligning with the patient's medical history. The evidence does not directly address premature beats or the specific evaluation of palpitations with intermittent symptoms, indicating an insufficiency of direct evidence to confirm a diagnosis.
+
+**6. Safety Disclaimer**
+
+This report is for cardiology decision-support only and does not constitute a diagnosis or medical advice. The information provided is based solely on the patient data and supporting agent outputs. It is essential for a qualified clinician to perform a comprehensive evaluation, consider all clinical information, and make definitive medical decisions regarding diagnosis and treatment.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+Confidence note: This report should be interpreted with low-to-moderate confidence unless supported by clinician review, formal ECG interpretation, labs, imaging, and additional history.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

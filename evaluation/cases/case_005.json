@@ -1,0 +1,24 @@
+{
+  "case_id": "case_005",
+  "patient_information": {
+    "age": 67,
+    "sex": "F",
+    "symptoms": [
+      "shortness of breath",
+      "ankle swelling",
+      "fatigue"
+    ],
+    "patient_state": "Patient reports gradually worsening shortness of breath during physical activity, associated with ankle swelling and persistent fatigue.",
+    "medical_history": [
+      "hypertension",
+      "type 2 diabetes"
+    ],
+    "vital_signs": {
+      "heart_rate": 88,
+      "systolic_bp": 148,
+      "diastolic_bp": 90,
+      "oxygen_saturation": 95
+    },
+    "ecg": "Voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes."
+  }
+}

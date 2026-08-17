@@ -1,0 +1,32 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+1. Possible cardiac considerations
+*   The reported irregular heartbeat and palpitations, combined with the ECG tool's finding of possible rhythm irregularity (e.g., atrial fibrillation or another arrhythmia), could suggest an underlying cardiac arrhythmia.
+*   Intermittent chest discomfort in a patient with a history of hypertension and diabetes, along with an elevated heart rate (115 bpm) and blood pressure (145/95 mmHg), may be considered for possible cardiac ischemia or angina.
+*   The elevated blood pressure could suggest hypertensive urgency, particularly in the context of symptoms like chest pain and palpitations.
+*   Anxiety or other non-cardiac causes may also contribute to the reported symptoms.
+
+2. Recommended next tests or monitoring
+*   A 12-lead electrocardiogram (ECG) is recommended for a more detailed assessment of cardiac rhythm and to evaluate for ischemic changes.
+*   Continuous cardiac monitoring (e.g., Holter monitor or event recorder) may be beneficial to characterize the frequency and nature of the reported irregular heartbeats and palpitations.
+*   Cardiac enzyme assessment (e.g., troponin) may be considered given the reported chest pain.
+*   Regular monitoring of blood pressure and heart rate is advisable.
+*   Assessment of blood glucose levels given the history of diabetes.
+
+3. Immediate safety note
+The presence of chest pain, palpitations, an elevated heart rate of 115 bpm, and elevated blood pressure of 145/95 mmHg, along with the report of an irregular heartbeat, suggests that prompt clinician assessment is appropriate to determine the urgency of the situation and guide further management.
+
+4. Plain-language summary
+This patient is experiencing chest pain and a sensation of an irregular and fast heartbeat. They have a history of high blood pressure and diabetes. Their current vital signs show a fast heart rate and elevated blood pressure. These symptoms and readings suggest that there might be a heart rhythm issue or other cardiac concern, and a healthcare professional should assess them soon to understand the cause and decide on the best next steps.
+
+5. Evidence Summary
+No external clinical evidence was retrieved or injected for this assessment, as this is the baseline architecture. This assessment is based solely on the supplied patient information, original Gemini reasoning, and the results from the original ECG analysis tool.
+
+6. Safety disclaimer
+This information is for clinical decision-support only and must not be presented as medical advice or a confirmed diagnosis. A qualified healthcare professional must make all final clinical decisions.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+Confidence note: This report should be interpreted with low-to-moderate confidence unless supported by clinician review, formal ECG interpretation, labs, imaging, and additional history.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

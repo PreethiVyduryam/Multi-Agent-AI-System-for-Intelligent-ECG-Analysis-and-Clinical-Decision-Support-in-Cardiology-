@@ -1,0 +1,45 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+As a careful cardiology decision-support assistant, I have evaluated CASE_001. This report summarizes possible cardiac considerations based on the provided patient information and supporting evidence, but it does not provide a diagnosis.
+
+### Cardiology Decision-Support Report
+
+**1. Possible Cardiac Considerations**
+
+*   **Possible Atrial Fibrillation with Rapid Ventricular Response:** The patient, a 52-year-old female with a history of hypertension and diabetes, reports palpitations and an awareness of an irregular heartbeat. Her vital signs show tachycardia (heart rate 115 bpm) and an irregular heartbeat is reported on ECG. These findings are consistent with atrial fibrillation, particularly in the context of her cardiovascular risk factors (hypertension, diabetes). (Confidence: Moderate)
+*   **Consideration for Acute Coronary Syndrome (ACS) / Myocardial Ischemia:** The patient presents with chest pain and has risk factors for cardiovascular disease (hypertension, diabetes). Tachyarrhythmias can also coexist with or be triggered by myocardial ischemia. Therefore, ACS or myocardial ischemia cannot be ruled out as a potential cause for her chest discomfort. (Confidence: Moderate)
+*   **Cannot Rule Out Other Supraventricular or Ventricular Arrhythmias:** Given the reported irregular heartbeat and tachycardia, and the absence of a complete 12-lead ECG for detailed rhythm analysis, other forms of supraventricular or ventricular arrhythmias remain a consideration. (Confidence: Moderate)
+
+**2. Recommended Next Tests or Monitoring**
+
+Based on the patient's presentation, the following are recommended for further evaluation:
+
+*   **Complete 12-lead Electrocardiogram (ECG):** Essential for detailed rhythm analysis, P-wave morphology, QRS duration, ST-segment changes, and QT interval assessment, as the current ECG information is limited to "irregular heartbeat reported." (Supported by NICE and ESC guidelines for suspected AF and ACS).
+*   **Cardiac Biomarkers (e.g., Troponin):** To assess for myocardial injury, especially given the symptom of chest pain and cardiovascular risk factors. (Supported by NICE and ESC guidelines for suspected ACS).
+*   **Detailed Symptom History:** Further inquiry into the nature of the chest pain (duration, severity, radiation, exacerbating/relieving factors) and the irregular heartbeat (sustained vs. intermittent, duration of symptoms) is crucial.
+*   **Ambulatory Rhythm Monitoring (e.g., Holter Monitor):** If symptoms of an irregular heartbeat are intermittent, this may be appropriate for rhythm confirmation. (Supported by NICE guidelines for suspected atrial fibrillation).
+*   **Review of Medications:** Ascertain current medications, including antihypertensives, antidiabetics, and any rate-controlling drugs.
+*   **Laboratory Tests:** Assessment of electrolyte levels, renal function, and thyroid function tests may be helpful.
+*   **Past Medical History Expansion:** Gather information on baseline blood pressure and heart rate, degree of blood pressure/diabetes control, any prior cardiac or arrhythmia history, and family history of cardiac conditions.
+
+**3. Immediate Safety Note**
+
+The patient's symptoms of intermittent chest discomfort, palpitations, tachycardia, and reported irregular heartbeat, particularly with a history of hypertension and diabetes, warrant **urgent clinician assessment**. The information available is insufficient to rule out acute coronary syndrome or a hemodynamically significant arrhythmia, both of which require prompt medical attention.
+
+**4. Plain-Language Summary**
+
+You are a 52-year-old woman experiencing chest discomfort and a feeling of your heart beating irregularly and fast. You have a history of high blood pressure and diabetes. These symptoms could be due to an irregular heart rhythm like atrial fibrillation, or potentially related to your heart muscle (like a temporary lack of blood flow). Because your heart rate is fast and your blood pressure is elevated, and due to your existing health conditions, it is very important to see a clinician immediately for a thorough check-up. They will likely perform more detailed heart tests and other evaluations to understand what is causing your symptoms.
+
+**5. Evidence Summary**
+
+*   **Chest Pain Assessment:** NICE guidelines (2016) recommend prompt clinical assessment, ECG evaluation, and appropriate cardiac biomarker testing for patients presenting with chest pain when acute coronary syndrome is suspected.
+*   **Atrial Fibrillation Diagnosis:** NICE guidelines (2021) advise a 12-lead ECG for rhythm confirmation in suspected atrial fibrillation. For intermittent symptoms, ambulatory rhythm monitoring may be appropriate.
+*   **Acute Coronary Syndrome Guidelines:** The European Society of Cardiology guidelines (2023) emphasize prompt ECG assessment and cardiac biomarker evaluation for symptoms suggestive of acute coronary syndrome.
+
+**6. Safety Disclaimer**
+
+This report is for decision-support purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare professional for any medical concerns or before making any decisions related to your health or care.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

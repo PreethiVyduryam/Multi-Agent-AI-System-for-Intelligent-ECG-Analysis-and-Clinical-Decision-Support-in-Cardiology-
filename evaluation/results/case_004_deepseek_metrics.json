@@ -1,0 +1,72 @@
+{
+  "case_id": "case_004",
+  "evaluation_type": "Requirement-based DeepSeek-R1 reasoning evaluation",
+  "criteria": [
+    {
+      "criterion": "Patient information usage",
+      "result": "PASS",
+      "details": "9/9 relevant patient facts were reflected in the output."
+    },
+    {
+      "criterion": "FLAN-T5 information integration",
+      "result": "PASS",
+      "details": "1 relevant FLAN-T5 clinical terms were reflected in the output."
+    },
+    {
+      "criterion": "RAG evidence integration",
+      "result": "PASS",
+      "details": "9 relevant evidence terms/concepts were reflected in the output."
+    },
+    {
+      "criterion": "Clinical reasoning",
+      "result": "PASS",
+      "details": "The response connects patient findings and provides explanatory clinical reasoning."
+    },
+    {
+      "criterion": "Possible cardiac considerations",
+      "result": "PASS",
+      "details": "6 relevant cardiac considerations were identified."
+    },
+    {
+      "criterion": "Differential considerations",
+      "result": "PASS",
+      "details": "4 alternative explanations were explicitly considered."
+    },
+    {
+      "criterion": "Evidence grounding",
+      "result": "PASS",
+      "details": "5 retrieved evidence sources/topics were explicitly reflected."
+    },
+    {
+      "criterion": "Information gaps",
+      "result": "PASS",
+      "details": "The response identifies missing information that could affect interpretation."
+    },
+    {
+      "criterion": "Cautious clinical language",
+      "result": "PASS",
+      "details": "6 cautious language patterns were identified."
+    },
+    {
+      "criterion": "No confirmed diagnosis",
+      "result": "FAIL",
+      "details": "The output contains language suggesting a confirmed diagnosis."
+    },
+    {
+      "criterion": "No treatment prescription",
+      "result": "PASS",
+      "details": "No direct medication or treatment prescription was identified."
+    },
+    {
+      "criterion": "Required output structure",
+      "result": "PASS",
+      "details": "All required reasoning sections were present."
+    }
+  ],
+  "summary": {
+    "passed": 11,
+    "failed": 1,
+    "total": 12,
+    "compliance": 0.9166666666666666
+  }
+}

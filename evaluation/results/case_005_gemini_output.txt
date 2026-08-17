@@ -1,0 +1,63 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+## Cardiology Decision-Support Report - CASE_005
+
+**Patient Information Summary:**
+A 67-year-old female presents with gradually worsening shortness of breath during physical activity, associated with ankle swelling and persistent fatigue. Her medical history includes hypertension and type 2 diabetes. Vital signs show a heart rate of 88 bpm, blood pressure of 148/90 mmHg, and oxygen saturation of 95%. The ECG indicates voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes.
+
+---
+
+### 1. Possible Cardiac Considerations
+
+*   **Heart Failure Syndrome (Moderate confidence):** The constellation of exertional shortness of breath, ankle swelling, and fatigue, particularly in a patient with a history of hypertension and type 2 diabetes, is highly suggestive of heart failure. The ECG finding of left ventricular hypertrophy may reflect underlying cardiac structural changes. However, specific heart failure type (e.g., heart failure with preserved ejection fraction) cannot be determined without further investigation.
+*   **Hypertensive Heart Disease with Left Ventricular Hypertrophy (High confidence):** Given the patient's history of hypertension, current elevated blood pressure (148/90 mmHg), and ECG evidence of voltage criteria for left ventricular hypertrophy, chronic pressure overload on the heart is a strong consideration. This can lead to impaired ventricular function and contribute to the reported symptoms.
+*   **Coronary Artery Disease / Myocardial Ischaemia (Low confidence):** Hypertension and type 2 diabetes are significant risk factors for coronary artery disease. While no chest pain was reported, exertional shortness of breath can sometimes be an equivalent symptom of myocardial ischaemia. Further evaluation is needed to assess this possibility.
+
+---
+
+### 2. Recommended Next Tests or Monitoring
+
+Based on identified information gaps and to further evaluate possible cardiac considerations, the following are recommended:
+
+*   **Echocardiography:** To assess cardiac structure and function, including left ventricular ejection fraction, diastolic function, and valvular integrity. This is central to evaluating suspected heart failure and hypertensive heart disease as highlighted by the ESC and NICE guidelines.
+*   **Natriuretic Peptides (e.g., BNP or NT-proBNP):** For initial assessment of heart failure likelihood.
+*   **Comprehensive Physical Examination:** Including assessment of jugular venous pressure, lung auscultation, heart sounds, and characteristics of peripheral oedema.
+*   **Laboratory Investigations:**
+    *   Renal function (creatinine, eGFR) and electrolytes.
+    *   Glycated haemoglobin (HbA1c) for diabetes control.
+    *   Full blood count to assess for anaemia.
+    *   Thyroid stimulating hormone (TSH) to rule out thyroid dysfunction as a cause of symptoms.
+*   **Chest X-ray:** To assess for pulmonary congestion or other lung pathology.
+*   **Review of Current Medications:** To assess for potential contributing factors or optimize treatment.
+
+---
+
+### 3. Immediate Safety Note
+
+The patient's gradually worsening symptoms, including shortness of breath and ankle swelling, along with elevated blood pressure, warrant prompt clinical review to prevent potential acute decompensation.
+
+---
+
+### 4. Plain-Language Summary
+
+This 67-year-old patient is experiencing symptoms like shortness of breath and swollen ankles, which, along with a history of high blood pressure and diabetes, suggest a potential heart problem, possibly related to weakening of the heart muscle or changes in its structure due to long-standing high blood pressure. While the ECG shows signs of an enlarged heart muscle, more tests, especially an ultrasound of the heart (echocardiography), are needed to understand exactly what is happening and guide treatment. It is important to see a doctor soon for a thorough check-up.
+
+---
+
+### 5. Evidence Summary
+
+The `analyze_ecg_tool` indicated the ECG description of "Voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes" was inconclusive, meaning it was present but could not be clearly classified. However, the finding of left ventricular hypertrophy on ECG supports the consideration of hypertensive heart disease.
+
+The RAG evidence from NICE (2018) and ESC (2023) guidelines on chronic heart failure emphasizes that diagnosis relies on clinical evaluation and appropriate investigations, with echocardiography being central to assessing cardiac structure and function. This supports the recommended next steps for this patient. The NICE (2019) guideline on hypertension highlights the importance of blood pressure measurement and cardiovascular risk assessment, which is relevant given the patient's medical history and current blood pressure.
+
+---
+
+### 6. Safety Disclaimer
+
+This report provides cardiology decision-support and is not a diagnosis. The information presented is based solely on the provided patient information and supporting agent outputs. It is essential for a qualified clinician to review the patient comprehensively, integrate all clinical data, and make definitive diagnostic and management decisions.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+Confidence note: This report should be interpreted with low-to-moderate confidence unless supported by clinician review, formal ECG interpretation, labs, imaging, and additional history.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

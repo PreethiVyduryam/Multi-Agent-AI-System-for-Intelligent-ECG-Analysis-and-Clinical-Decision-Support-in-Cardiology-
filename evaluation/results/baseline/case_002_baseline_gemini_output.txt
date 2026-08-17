@@ -1,0 +1,31 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+1. Possible cardiac considerations
+*   Given the reported symptoms of intermittent shortness of breath and episodes of light-headedness, alongside a medical history of hypertension and hyperlipidaemia, several cardiac conditions could be considered.
+*   The presence of occasional premature beats on the ECG, even with sinus rhythm, could suggest a possible arrhythmogenic component contributing to the symptoms of dizziness and light-headedness.
+*   Coronary artery disease could be a consideration, especially given the patient's risk factors (hypertension, hyperlipidaemia), which may manifest with shortness of breath or exertional symptoms.
+*   Valvular heart disease or underlying cardiomyopathy could also potentially present with these symptoms, though no specific findings are available to support this.
+
+2. Recommended next tests or monitoring
+*   Further ambulatory ECG monitoring (e.g., 24-hour Holter monitor or event monitor) may be considered to characterize the frequency and nature of the premature beats and to detect any other transient arrhythmias that could correlate with the reported dizziness and light-headedness.
+*   Echocardiography could be recommended to assess cardiac structure, global and regional systolic function, diastolic function, and valvular integrity.
+*   Comprehensive blood work, including a complete blood count, electrolytes, renal function, thyroid function, and possibly cardiac biomarkers, may be helpful to rule out other causes or assess overall cardiac health.
+*   Depending on initial findings and clinical suspicion, a cardiac stress test (pharmacological or exercise) could be considered to evaluate for inducible ischemia, particularly given the patient's risk factors.
+
+3. Immediate safety note
+The patient reports intermittent shortness of breath and episodes of light-headedness. While vital signs including heart rate (88 bpm), blood pressure (138/84 mmHg), and oxygen saturation (97%) are not acutely critical, these symptoms, particularly light-headedness, could suggest underlying cardiac instability. Prompt clinical assessment by a qualified healthcare professional is recommended to further investigate the symptoms, particularly to rule out acute cardiac events or significant arrhythmias requiring urgent intervention.
+
+4. Plain-language summary
+This patient, who has a history of high blood pressure and high cholesterol, is experiencing episodes of feeling short of breath and light-headed. Their heart rate is 88 beats per minute, and blood pressure is slightly elevated. An electrocardiogram (ECG) showed a regular heart rhythm but with some extra heartbeats. These symptoms, combined with the patient's medical history, suggest that a heart-related issue might be present. It is important for a doctor to assess these symptoms further to understand the cause and determine if any treatment is needed.
+
+5. Evidence Summary
+No external clinical evidence was retrieved or injected for this assessment because this is the baseline architecture. The assessment is based solely on the supplied patient information, original Gemini reasoning, and the inconclusive result from the original ECG tool. No external guidelines, publications, or evidence sources were consulted or referenced.
+
+6. Safety disclaimer
+This information is provided for clinical decision-support purposes only and must not be considered medical advice or a confirmed diagnosis. All final clinical decisions and patient management must be made by a qualified healthcare professional.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+Confidence note: This report should be interpreted with low-to-moderate confidence unless supported by clinician review, formal ECG interpretation, labs, imaging, and additional history.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

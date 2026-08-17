@@ -1,0 +1,45 @@
+{
+  "case_id": "case_005",
+  "reference_units": [
+    "age:67",
+    "blood_pressure:148/90 mmhg",
+    "ecg:voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes",
+    "heart_rate:88 bpm",
+    "history:hypertension",
+    "history:type 2 diabetes",
+    "oxygen_saturation:95%",
+    "sex:f",
+    "symptom:ankle swelling",
+    "symptom:fatigue",
+    "symptom:shortness of breath"
+  ],
+  "prediction_units": [
+    "symptom:ankle swelling",
+    "symptom:fatigue",
+    "symptom:shortness of breath"
+  ],
+  "matched": [
+    "symptom:ankle swelling",
+    "symptom:fatigue",
+    "symptom:shortness of breath"
+  ],
+  "missing": [
+    "age:67",
+    "blood_pressure:148/90 mmhg",
+    "ecg:voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes",
+    "heart_rate:88 bpm",
+    "history:hypertension",
+    "history:type 2 diabetes",
+    "oxygen_saturation:95%",
+    "sex:f"
+  ],
+  "unexpected": [],
+  "metrics": {
+    "true_positives": 3,
+    "false_positives": 0,
+    "false_negatives": 8,
+    "precision": 1.0,
+    "recall": 0.2727272727272727,
+    "f1": 0.42857142857142855
+  }
+}

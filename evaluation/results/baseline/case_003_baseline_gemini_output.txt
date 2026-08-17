@@ -1,0 +1,31 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+1. Possible cardiac considerations
+Based on the patient's reported exertional chest discomfort, shortness of breath, and fatigue, coupled with a medical history of hypertension and hyperlipidaemia, and vital signs showing a heart rate of 96 bpm and blood pressure of 152/92 mmHg, several cardiac considerations may be possible. These could suggest conditions such as stable angina, unstable angina, or other forms of coronary artery disease. The reported non-specific ST-T wave changes on the ECG are inconclusive and do not rule out underlying cardiac ischemia; they require further assessment in the clinical context. The patient's elevated blood pressure also requires attention and further evaluation.
+
+2. Recommended next tests or monitoring
+Further assessment may be considered, including:
+*   A comprehensive clinical examination.
+*   Laboratory investigations, including cardiac biomarkers (e.g., troponin levels if acute coronary syndrome is suspected), complete blood count, kidney function, and lipid panel.
+*   Echocardiography to assess cardiac structure and function.
+*   Stress testing (e.g., exercise stress test or pharmacological stress test with imaging) to evaluate for inducible ischemia.
+*   Ambulatory ECG monitoring if arrhythmias are suspected to contribute to symptoms.
+*   Further blood pressure monitoring and management.
+
+3. Immediate safety note
+Given the patient's exertional chest discomfort, shortness of breath, and non-specific ECG changes, prompt clinician assessment is appropriate. While the current vital signs (heart rate 96 bpm, BP 152/92 mmHg, O2 saturation 96%) do not immediately indicate an acute life-threatening emergency, the nature of the symptoms, particularly exertional chest discomfort, necessitates urgent clinical evaluation to rule out acute coronary syndromes or other serious cardiac conditions.
+
+4. Plain-language summary
+This patient is experiencing chest discomfort mainly with activity, along with feeling short of breath and tired. They have a history of high blood pressure and high cholesterol. Their heart rate is a little fast, and blood pressure is elevated. An ECG mentioned some non-specific changes. These findings collectively suggest a possible heart-related issue that requires further investigation by a healthcare professional to understand the cause of the symptoms and decide on the best next steps.
+
+5. Evidence Summary
+No external clinical evidence was retrieved or injected because this is the baseline architecture. The assessment provided is based solely on the supplied patient information, original Gemini reasoning, and the results from the `analyze_ecg_tool`.
+
+6. Safety disclaimer
+This information is for clinical decision-support only and must not be considered medical advice or a confirmed diagnosis. A qualified healthcare professional must make all final clinical decisions.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+Confidence note: This report should be interpreted with low-to-moderate confidence unless supported by clinician review, formal ECG interpretation, labs, imaging, and additional history.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

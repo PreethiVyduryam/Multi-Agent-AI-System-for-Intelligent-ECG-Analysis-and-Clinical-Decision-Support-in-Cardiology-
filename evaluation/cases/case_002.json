@@ -1,0 +1,23 @@
+{
+  "case_id": "case_002",
+  "patient_information": {
+    "age": 67,
+    "sex": "M",
+    "symptoms": [
+      "shortness of breath",
+      "dizziness"
+    ],
+    "patient_state": "Patient reports intermittent shortness of breath and episodes of light-headedness.",
+    "medical_history": [
+      "hypertension",
+      "hyperlipidaemia"
+    ],
+    "vital_signs": {
+      "heart_rate": 88,
+      "systolic_bp": 138,
+      "diastolic_bp": 84,
+      "oxygen_saturation": 97
+    },
+    "ecg": "Sinus rhythm with occasional premature beats reported."
+  }
+}

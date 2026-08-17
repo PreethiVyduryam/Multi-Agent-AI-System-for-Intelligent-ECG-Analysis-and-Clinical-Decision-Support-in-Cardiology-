@@ -1,0 +1,43 @@
+{
+  "case_id": "case_003",
+  "reference_units": [
+    "age:59",
+    "blood_pressure:152/92 mmhg",
+    "ecg:non-specific st-t wave changes reported",
+    "heart_rate:96 bpm",
+    "history:hyperlipidaemia",
+    "history:hypertension",
+    "oxygen_saturation:96%",
+    "sex:f",
+    "symptom:exertional chest discomfort",
+    "symptom:fatigue",
+    "symptom:shortness of breath"
+  ],
+  "prediction_units": [
+    "ecg:non-specific st-t wave changes reported"
+  ],
+  "matched": [
+    "ecg:non-specific st-t wave changes reported"
+  ],
+  "missing": [
+    "age:59",
+    "blood_pressure:152/92 mmhg",
+    "heart_rate:96 bpm",
+    "history:hyperlipidaemia",
+    "history:hypertension",
+    "oxygen_saturation:96%",
+    "sex:f",
+    "symptom:exertional chest discomfort",
+    "symptom:fatigue",
+    "symptom:shortness of breath"
+  ],
+  "unexpected": [],
+  "metrics": {
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 10,
+    "precision": 1.0,
+    "recall": 0.09090909090909091,
+    "f1": 0.16666666666666669
+  }
+}

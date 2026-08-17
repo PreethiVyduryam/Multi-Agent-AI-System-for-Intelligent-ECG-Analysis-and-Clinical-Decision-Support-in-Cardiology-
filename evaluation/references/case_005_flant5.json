@@ -1,0 +1,20 @@
+{
+  "case_id": "case_005",
+  "expected_information": {
+    "age": 67,
+    "sex": "F",
+    "symptoms": [
+      "shortness of breath",
+      "ankle swelling",
+      "fatigue"
+    ],
+    "medical_history": [
+      "hypertension",
+      "type 2 diabetes"
+    ],
+    "heart_rate": "88 bpm",
+    "blood_pressure": "148/90 mmHg",
+    "oxygen_saturation": "95%",
+    "ecg": "Voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes."
+  }
+}

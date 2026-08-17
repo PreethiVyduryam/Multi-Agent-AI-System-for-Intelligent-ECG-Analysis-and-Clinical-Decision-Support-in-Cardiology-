@@ -1,0 +1,51 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+## Cardiology Decision-Support Report - CASE_003
+
+**Patient Information Summary:**
+A 59-year-old female presents with intermittent exertional chest discomfort, shortness of breath, and increased fatigue. Her medical history includes hypertension and hyperlipidaemia. Vital signs show a heart rate of 96 bpm, blood pressure of 152/92 mmHg, and oxygen saturation of 96%. An ECG report indicates non-specific ST-T wave changes.
+
+**1. Possible Cardiac Considerations:**
+
+*   **Stable angina due to obstructive coronary artery disease (Moderate confidence):** The patient's symptoms of exertional chest discomfort, combined with a history of hypertension and hyperlipidaemia, may suggest myocardial ischaemia. Non-specific ST-T wave changes on ECG could be an indicator, though not definitive.
+*   **Heart failure, particularly with preserved ejection fraction (Moderate confidence):** Shortness of breath and fatigue are common symptoms of heart failure, and hypertension is a significant risk factor. The RAG evidence from NICE (2018) and ESC (2023) guidelines highlights that such symptoms require assessment of cardiac structure and function, such as with echocardiography.
+*   **Hypertensive heart disease with left ventricular hypertrophy (Moderate confidence):** The patient's long-standing hypertension and elevated blood pressure (152/92 mmHg) could lead to structural cardiac changes. The non-specific ST-T wave changes reported on the ECG might be consistent with left ventricular hypertrophy or strain, which could contribute to exertional symptoms.
+
+*Differential Considerations (Low confidence, based on common presentations but not directly indicated by current data):*
+*   Pulmonary causes of exertional dyspnoea and chest discomfort.
+*   Anaemia or thyroid dysfunction.
+*   Musculoskeletal chest wall pain or deconditioning.
+*   Cardiac microvascular dysfunction or coronary vasospasm.
+
+**2. Recommended Next Tests or Monitoring:**
+
+*   **Detailed History:** Further characterization of chest discomfort (quality, location, radiation, duration, relieving factors, consistency with exertion/rest), symptom stability or progression, and occurrence of symptoms at rest.
+*   **Physical Examination:** Including heart sounds, lung fields, peripheral oedema, and vascular examination.
+*   **Laboratory Tests:** Full blood count, renal function, thyroid function, lipid profile, and natriuretic peptides (e.g., NT-proBNP or BNP).
+*   **Cardiac Investigations:**
+    *   Echocardiography to assess cardiac structure and function, including left ventricular ejection fraction, wall motion abnormalities, diastolic function, and valve disease.
+    *   Review of prior cardiac investigations, if any (ECGs, stress tests).
+*   **Medication Review:** Current medications, particularly antihypertensives, statins, or antiplatelet agents, are missing and should be obtained.
+*   **Family History:** Family history of premature cardiovascular disease and menopausal status are missing and should be obtained.
+
+**3. Immediate Safety Note:**
+
+The patient presents with exertional chest discomfort, shortness of breath, and elevated blood pressure, which are symptoms that can indicate an acute or worsening cardiac condition. While the ECG shows non-specific ST-T changes and the automated ECG analysis was inconclusive, these findings combined with risk factors warrant prompt clinical evaluation to rule out acute cardiac events and determine the underlying cause of her symptoms.
+
+**4. Plain-Language Summary:**
+
+This 59-year-old woman is experiencing chest discomfort mainly during physical activity, along with shortness of breath and tiredness. She has a history of high blood pressure and high cholesterol. Her blood pressure is currently elevated. An ECG showed some changes that are not specific to one particular problem. These symptoms, especially with her medical background, raise concerns about potential heart conditions such as narrowing of the heart arteries, or different forms of heart weakness, or changes in the heart due to long-standing high blood pressure. While no definite diagnosis can be made from the current information, further tests, particularly a heart ultrasound (echocardiography), and a thorough check-up by a clinician are important to understand the cause of her symptoms and guide appropriate management.
+
+**5. Evidence Summary:**
+
+The RAG evidence includes guidelines from NICE (2018) and the European Society of Cardiology (2023) on heart failure, emphasizing the need for clinical evaluation, imaging (like echocardiography), and laboratory investigations for diagnosis, especially for symptoms like breathlessness and fatigue. A NICE (2019) guideline on hypertension highlights the importance of accurate blood pressure measurement and cardiovascular risk assessment. This evidence supports the approach of further investigation for the patient's symptoms and risk factors, particularly concerning heart failure and hypertension. However, the retrieved evidence does not provide specific information regarding ECG interpretation for non-specific ST-T changes or directly on coronary artery disease.
+
+**6. Safety Disclaimer:**
+
+This report is for decision-support purposes only and does not constitute a medical diagnosis or treatment recommendation. It is based on the provided patient information and supporting agent outputs. Clinical decisions must always be made by a qualified healthcare professional who can consider all patient-specific factors, conduct a comprehensive examination, and interpret all diagnostic information in context. Clinician review is strongly recommended.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+Confidence note: This report should be interpreted with low-to-moderate confidence unless supported by clinician review, formal ECG interpretation, labs, imaging, and additional history.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

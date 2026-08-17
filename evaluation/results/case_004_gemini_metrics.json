@@ -1,0 +1,127 @@
+{
+  "case_id": "case_004",
+  "evaluation_type": "Requirement-based Gemini decision-support evaluation",
+  "criteria": [
+    {
+      "criterion": "age",
+      "result": "PASS"
+    },
+    {
+      "criterion": "sex",
+      "result": "PASS"
+    },
+    {
+      "criterion": "palpitations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "dizziness",
+      "result": "PASS"
+    },
+    {
+      "criterion": "fatigue",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hypertension",
+      "result": "PASS"
+    },
+    {
+      "criterion": "ECG finding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Unsupported patient information",
+      "result": "PASS"
+    },
+    {
+      "criterion": "FLAN-T5 information integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "RAG evidence integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "DeepSeek-R1 reasoning integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical considerations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Recommended investigations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Information-gap awareness",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical safety language",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No confirmed diagnosis",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No treatment prescription",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Evidence grounding",
+      "result": "FAIL"
+    },
+    {
+      "criterion": "Required output structure",
+      "result": "PASS"
+    }
+  ],
+  "summary": {
+    "passed": 18,
+    "failed": 1,
+    "total": 19,
+    "compliance": 0.9473684210526315
+  },
+  "unsupported_patient_information": [],
+  "integration": {
+    "flant5_concepts": [
+      "clinical information",
+      "palpitations",
+      "premature beats",
+      "premature beat"
+    ],
+    "rag_concepts": [
+      "evidence",
+      "12-lead ecg",
+      "ambulatory",
+      "atrial fibrillation",
+      "cardiovascular risk"
+    ],
+    "deepseek_concepts": [
+      "atrial fibrillation",
+      "arrhythmia",
+      "ambulatory rhythm monitoring",
+      "premature beats"
+    ]
+  },
+  "clinical": {
+    "cardiac_considerations": [
+      "atrial fibrillation",
+      "arrhythmia"
+    ],
+    "investigation_concepts": [
+      "12-lead ecg",
+      "ambulatory",
+      "holter",
+      "monitoring",
+      "thyroid function",
+      "electrolyte",
+      "electrolytes"
+    ],
+    "treatment_prescription_patterns": [],
+    "missing_required_sections": []
+  }
+}

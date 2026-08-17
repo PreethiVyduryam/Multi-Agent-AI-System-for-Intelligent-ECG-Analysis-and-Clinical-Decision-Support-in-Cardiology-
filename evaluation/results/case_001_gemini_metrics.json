@@ -1,0 +1,144 @@
+{
+  "case_id": "case_001",
+  "evaluation_type": "Requirement-based Gemini decision-support evaluation",
+  "criteria": [
+    {
+      "criterion": "age",
+      "result": "PASS"
+    },
+    {
+      "criterion": "sex",
+      "result": "PASS"
+    },
+    {
+      "criterion": "chest pain",
+      "result": "PASS"
+    },
+    {
+      "criterion": "chest symptoms",
+      "result": "PASS"
+    },
+    {
+      "criterion": "palpitations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hypertension",
+      "result": "PASS"
+    },
+    {
+      "criterion": "diabetes",
+      "result": "PASS"
+    },
+    {
+      "criterion": "ECG finding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Unsupported patient information",
+      "result": "PASS"
+    },
+    {
+      "criterion": "FLAN-T5 information integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "RAG evidence integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "DeepSeek-R1 reasoning integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical considerations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Recommended investigations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Information-gap awareness",
+      "result": "FAIL"
+    },
+    {
+      "criterion": "Clinical safety language",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No confirmed diagnosis",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No treatment prescription",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Evidence grounding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Required output structure",
+      "result": "PASS"
+    }
+  ],
+  "summary": {
+    "passed": 19,
+    "failed": 1,
+    "total": 20,
+    "compliance": 0.95
+  },
+  "unsupported_patient_information": [],
+  "integration": {
+    "flant5_concepts": [
+      "irregular heartbeat",
+      "palpitations"
+    ],
+    "rag_concepts": [
+      "nice",
+      "esc",
+      "guideline",
+      "guidelines",
+      "evidence",
+      "12-lead ecg",
+      "ambulatory",
+      "troponin",
+      "cardiac biomarker",
+      "acute coronary syndrome",
+      "atrial fibrillation",
+      "cardiovascular risk"
+    ],
+    "deepseek_concepts": [
+      "atrial fibrillation",
+      "acute coronary syndrome",
+      "myocardial ischemia",
+      "tachyarrhythmia",
+      "arrhythmia",
+      "cardiac biomarker",
+      "ambulatory rhythm monitoring"
+    ]
+  },
+  "clinical": {
+    "cardiac_considerations": [
+      "atrial fibrillation",
+      "acute coronary syndrome",
+      "myocardial ischemia",
+      "tachyarrhythmia",
+      "arrhythmia"
+    ],
+    "investigation_concepts": [
+      "12-lead ecg",
+      "troponin",
+      "cardiac biomarker",
+      "ambulatory",
+      "holter",
+      "monitoring",
+      "thyroid function",
+      "thyroid function tests",
+      "electrolyte"
+    ],
+    "treatment_prescription_patterns": [],
+    "missing_required_sections": []
+  }
+}

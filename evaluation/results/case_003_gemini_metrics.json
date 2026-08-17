@@ -1,0 +1,131 @@
+{
+  "case_id": "case_003",
+  "evaluation_type": "Requirement-based Gemini decision-support evaluation",
+  "criteria": [
+    {
+      "criterion": "age",
+      "result": "PASS"
+    },
+    {
+      "criterion": "sex",
+      "result": "PASS"
+    },
+    {
+      "criterion": "chest pain",
+      "result": "PASS"
+    },
+    {
+      "criterion": "chest symptoms",
+      "result": "PASS"
+    },
+    {
+      "criterion": "shortness of breath",
+      "result": "PASS"
+    },
+    {
+      "criterion": "fatigue",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hypertension",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hyperlipidaemia",
+      "result": "PASS"
+    },
+    {
+      "criterion": "hyperlipidemia",
+      "result": "PASS"
+    },
+    {
+      "criterion": "ECG finding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Unsupported patient information",
+      "result": "PASS"
+    },
+    {
+      "criterion": "FLAN-T5 information integration",
+      "result": "FAIL"
+    },
+    {
+      "criterion": "RAG evidence integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "DeepSeek-R1 reasoning integration",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical considerations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Recommended investigations",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Information-gap awareness",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Clinical safety language",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No confirmed diagnosis",
+      "result": "PASS"
+    },
+    {
+      "criterion": "No treatment prescription",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Evidence grounding",
+      "result": "PASS"
+    },
+    {
+      "criterion": "Required output structure",
+      "result": "PASS"
+    }
+  ],
+  "summary": {
+    "passed": 21,
+    "failed": 1,
+    "total": 22,
+    "compliance": 0.9545454545454546
+  },
+  "unsupported_patient_information": [],
+  "integration": {
+    "flant5_concepts": [],
+    "rag_concepts": [
+      "nice",
+      "esc",
+      "guideline",
+      "guidelines",
+      "evidence",
+      "cardiovascular risk"
+    ],
+    "deepseek_concepts": [
+      "myocardial ischaemia",
+      "coronary artery disease",
+      "heart failure"
+    ]
+  },
+  "clinical": {
+    "cardiac_considerations": [
+      "myocardial ischaemia",
+      "coronary artery disease",
+      "heart failure"
+    ],
+    "investigation_concepts": [
+      "monitoring",
+      "echocardiography",
+      "thyroid function"
+    ],
+    "treatment_prescription_patterns": [],
+    "missing_required_sections": []
+  }
+}

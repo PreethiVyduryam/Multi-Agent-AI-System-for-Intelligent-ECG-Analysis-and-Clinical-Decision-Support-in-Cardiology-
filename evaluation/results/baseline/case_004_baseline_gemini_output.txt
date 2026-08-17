@@ -1,0 +1,37 @@
+This is not medical advice and not a confirmed diagnosis. It is decision-support information for clinical review.
+
+1. Possible cardiac considerations
+- Possible paroxysmal atrial fibrillation or other supraventricular tachyarrhythmia, given intermittent palpitations, dizziness, and an elevated heart rate (Confidence: High)
+- Possible symptomatic premature atrial or ventricular complexes, as indicated by reported "occasional premature beats" in the context of symptoms (Confidence: Medium)
+- Possible hypertensive heart disease contributing to an arrhythmic substrate, considering the patient's medical history of hypertension and current blood pressure (Confidence: Medium)
+
+2. Recommended next tests or monitoring
+- Detailed 12-lead electrocardiogram (ECG) to further characterize cardiac rhythm and identify any underlying abnormalities.
+- Ambulatory rhythm monitoring (e.g., Holter or event monitor) to capture intermittent episodes of palpitations and associated rhythm disturbances, as supported by guidelines for suspected paroxysmal arrhythmias.
+- Comprehensive blood pressure assessment and review of hypertension management, in line with hypertension guidelines.
+- Consider laboratory investigations including a full blood count, electrolytes, and thyroid function tests to evaluate for other contributing factors to palpitations and dizziness.
+
+3. Immediate safety note
+This assessment is for decision support only. The patient's symptoms of palpitations and dizziness, especially when associated with an elevated heart rate, warrant prompt clinical evaluation by a healthcare professional. Urgent review is recommended if symptoms worsen, become more frequent, or are associated with syncope, chest pain, or severe shortness of breath.
+
+4. Plain-language summary
+This patient is experiencing episodes of a fast heartbeat, dizziness, and tiredness, with a medical history of high blood pressure and an ECG showing occasional extra heartbeats. These symptoms suggest a possible heart rhythm disturbance. Further tests are needed to understand the cause, especially to rule out intermittent arrhythmias and to assess the impact of their high blood pressure.
+
+5. Evidence Summary
+
+Clinical reasoning was supported using evidence retrieved from the local clinical knowledge repository.
+
+Evidence Sources
+- Atrial fibrillation: diagnosis and management (NICE, 2021)
+- Hypertension in adults: diagnosis and management (NICE, 2019)
+- ESC Guidelines for the Management of Arterial Hypertension (European Society of Cardiology, 2024)
+
+Summary
+The NICE guideline on Atrial Fibrillation (2021) supports considering paroxysmal atrial fibrillation for patients with intermittent palpitations and dizziness. It highlights the utility of 12-lead ECG and ambulatory rhythm monitoring when symptoms are intermittent, which directly informs the recommendation for these investigations. The patient's history of hypertension and current blood pressure reading are relevant as per the NICE (2019) and ESC (2024) guidelines on Hypertension, which emphasize accurate blood pressure assessment and comprehensive cardiovascular risk evaluation in management decisions. While the retrieved evidence is useful for guiding the investigation of intermittent palpitations and managing hypertension, it does not provide specific guidance on interpreting "occasional premature beats" or other specific tachyarrhythmias beyond atrial fibrillation.
+
+6. Safety disclaimer
+This information is for cardiology decision-support purposes only and does not constitute medical advice, diagnosis, or treatment. It is not a substitute for professional medical judgment. A qualified clinician must review all patient data and make definitive decisions regarding diagnosis and patient care.
+
+A licensed clinician should review this information, confirm any diagnosis, and decide on urgent testing or treatment.
+
+[SAFETY NOTE] The generated text may contain wording that sounds more definitive than intended. Treat the report as provisional decision support only.

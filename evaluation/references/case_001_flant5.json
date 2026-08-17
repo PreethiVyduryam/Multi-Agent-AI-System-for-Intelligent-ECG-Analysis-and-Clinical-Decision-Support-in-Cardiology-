@@ -1,0 +1,19 @@
+{
+  "case_id": "case_001",
+  "expected_information": {
+    "age": "52",
+    "sex": "female",
+    "symptoms": [
+      "chest pain",
+      "palpitations"
+    ],
+    "medical_history": [
+      "hypertension",
+      "diabetes"
+    ],
+    "heart_rate": "115 bpm",
+    "blood_pressure": "145/95 mmHg",
+    "oxygen_saturation": "98%",
+    "ecg": "irregular heartbeat"
+  }
+}

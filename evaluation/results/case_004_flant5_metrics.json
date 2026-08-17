@@ -1,0 +1,41 @@
+{
+  "case_id": "case_004",
+  "reference_units": [
+    "age:45",
+    "blood_pressure:140/88 mmhg",
+    "ecg:occasional premature beats reported",
+    "heart_rate:108 bpm",
+    "history:hypertension",
+    "oxygen_saturation:98%",
+    "sex:m",
+    "symptom:dizziness",
+    "symptom:fatigue",
+    "symptom:palpitations"
+  ],
+  "prediction_units": [
+    "ecg:occasional premature beats reported"
+  ],
+  "matched": [
+    "ecg:occasional premature beats reported"
+  ],
+  "missing": [
+    "age:45",
+    "blood_pressure:140/88 mmhg",
+    "heart_rate:108 bpm",
+    "history:hypertension",
+    "oxygen_saturation:98%",
+    "sex:m",
+    "symptom:dizziness",
+    "symptom:fatigue",
+    "symptom:palpitations"
+  ],
+  "unexpected": [],
+  "metrics": {
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 9,
+    "precision": 1.0,
+    "recall": 0.1,
+    "f1": 0.18181818181818182
+  }
+}

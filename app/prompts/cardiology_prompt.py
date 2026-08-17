@@ -3,11 +3,10 @@ from dataclasses import asdict
 from typing import Optional
 
 from app.models.patient import PatientCase
-
-
 def build_cardiology_user_prompt(
     patient_case: PatientCase,
     history_summary: Optional[str],
+    clinical_summary: Optional[str] = None,
 ) -> str:
     structured_case = json.dumps(asdict(patient_case), indent=2)
     history_block = history_summary or "No prior visit history is available for this patient."
@@ -20,6 +19,9 @@ Prior patient history:
 
 Current patient case:
 {structured_case}
+
+Clinical Information Extraction Summary:
+{clinical_summary or "Not available."}
 
 Available tools:
 1. analyze_ecg_tool(ecg_data: str)

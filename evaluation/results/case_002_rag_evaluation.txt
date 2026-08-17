@@ -1,0 +1,90 @@
+========== RAG EVALUATION ==========
+
+Case: case_002
+
+========== RETRIEVAL QUERY ==========
+
+shortness of breath dizziness Patient reports intermittent shortness of breath and episodes of light-headedness. hypertension hyperlipidaemia Sinus rhythm with occasional premature beats reported. Provide a brief cardiology-focused assessment.
+
+========== RETRIEVED DOCUMENTS ==========
+
+--- Retrieved Document 1 ---
+Title: Hypertension in adults: diagnosis and management
+Organisation: NICE
+Year: 2019
+Topic: Hypertension
+Keywords: ['hypertension', 'blood pressure', 'systolic pressure', 'cardiovascular risk']
+Summary: Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors.
+
+--- Retrieved Document 2 ---
+Title: ESC Guidelines for the Management of Arterial Hypertension
+Organisation: European Society of Cardiology
+Year: 2024
+Topic: Hypertension
+Keywords: ['hypertension', 'blood pressure', 'cardiovascular disease', 'risk assessment']
+Summary: Management of hypertension should be based on accurate blood pressure measurement and comprehensive cardiovascular risk assessment. Treatment strategies should be individualized according to patient characteristics.
+
+--- Retrieved Document 3 ---
+Title: Artificial Intelligence for ECG Interpretation
+Organisation: Peer-reviewed Research
+Year: 2023
+Topic: AI ECG Interpretation
+Keywords: ['ECG', 'artificial intelligence', 'arrhythmia', 'deep learning', 'cardiology']
+Summary: Artificial intelligence methods can assist clinicians by identifying ECG abnormalities and supporting cardiovascular diagnosis while requiring clinician oversight for final decisions.
+
+========== EVIDENCE CONTEXT PASSED TO AGENTS ==========
+
+Title: Hypertension in adults: diagnosis and management
+
+Organisation: NICE
+
+Year: 2019
+
+Topic: Hypertension
+
+Retrieval Score:
+28
+
+Matched Clinical Terms:
+cardiovascular risk, hypertension
+
+Summary:
+Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors.
+
+----------------------------------------
+
+Title: ESC Guidelines for the Management of Arterial Hypertension
+
+Organisation: European Society of Cardiology
+
+Year: 2024
+
+Topic: Hypertension
+
+Retrieval Score:
+22
+
+Matched Clinical Terms:
+cardiovascular risk, hypertension
+
+Summary:
+Management of hypertension should be based on accurate blood pressure measurement and comprehensive cardiovascular risk assessment. Treatment strategies should be individualized according to patient characteristics.
+
+----------------------------------------
+
+Title: Artificial Intelligence for ECG Interpretation
+
+Organisation: Peer-reviewed Research
+
+Year: 2023
+
+Topic: AI ECG Interpretation
+
+Retrieval Score:
+21
+
+Matched Clinical Terms:
+arrhythmia, cardiology, rhythm, rhythm relevance
+
+Summary:
+Artificial intelligence methods can assist clinicians by identifying ECG abnormalities and supporting cardiovascular diagnosis while requiring clinician oversight for final decisions.

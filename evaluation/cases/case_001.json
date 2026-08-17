@@ -1,0 +1,23 @@
+{
+  "case_id": "case_001",
+  "patient_information": {
+    "age": 52,
+    "sex": "F",
+    "symptoms": [
+      "chest pain",
+      "palpitations"
+    ],
+    "patient_state": "Patient reports intermittent chest discomfort and awareness of an irregular heartbeat.",
+    "medical_history": [
+      "hypertension",
+      "diabetes"
+    ],
+    "vital_signs": {
+      "heart_rate": 115,
+      "systolic_bp": 145,
+      "diastolic_bp": 95,
+      "oxygen_saturation": 98
+    },
+    "ecg": "Irregular heartbeat reported."
+  }
+}

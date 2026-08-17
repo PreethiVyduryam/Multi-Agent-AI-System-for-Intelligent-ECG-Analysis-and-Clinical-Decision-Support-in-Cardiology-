@@ -1,0 +1,90 @@
+========== RAG EVALUATION ==========
+
+Case: case_004
+
+========== RETRIEVAL QUERY ==========
+
+palpitations dizziness fatigue Patient reports intermittent episodes of a racing heartbeat associated with dizziness and fatigue. hypertension Occasional premature beats reported. Provide a brief cardiology-focused assessment.
+
+========== RETRIEVED DOCUMENTS ==========
+
+--- Retrieved Document 1 ---
+Title: Atrial fibrillation: diagnosis and management
+Organisation: NICE
+Year: 2021
+Topic: Atrial Fibrillation
+Keywords: ['atrial fibrillation', 'palpitations', 'irregular rhythm', 'ECG', 'Holter monitor']
+Summary: Patients with suspected atrial fibrillation should undergo a 12-lead ECG for rhythm confirmation. When symptoms are intermittent, ambulatory rhythm monitoring such as Holter monitoring may be appropriate.
+
+--- Retrieved Document 2 ---
+Title: Hypertension in adults: diagnosis and management
+Organisation: NICE
+Year: 2019
+Topic: Hypertension
+Keywords: ['hypertension', 'blood pressure', 'systolic pressure', 'cardiovascular risk']
+Summary: Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors.
+
+--- Retrieved Document 3 ---
+Title: ESC Guidelines for the Management of Arterial Hypertension
+Organisation: European Society of Cardiology
+Year: 2024
+Topic: Hypertension
+Keywords: ['hypertension', 'blood pressure', 'cardiovascular disease', 'risk assessment']
+Summary: Management of hypertension should be based on accurate blood pressure measurement and comprehensive cardiovascular risk assessment. Treatment strategies should be individualized according to patient characteristics.
+
+========== EVIDENCE CONTEXT PASSED TO AGENTS ==========
+
+Title: Atrial fibrillation: diagnosis and management
+
+Organisation: NICE
+
+Year: 2021
+
+Topic: Atrial Fibrillation
+
+Retrieval Score:
+22
+
+Matched Clinical Terms:
+intermittent, palpitation, palpitations, rhythm relevance
+
+Summary:
+Patients with suspected atrial fibrillation should undergo a 12-lead ECG for rhythm confirmation. When symptoms are intermittent, ambulatory rhythm monitoring such as Holter monitoring may be appropriate.
+
+----------------------------------------
+
+Title: Hypertension in adults: diagnosis and management
+
+Organisation: NICE
+
+Year: 2019
+
+Topic: Hypertension
+
+Retrieval Score:
+21
+
+Matched Clinical Terms:
+hypertension
+
+Summary:
+Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors.
+
+----------------------------------------
+
+Title: ESC Guidelines for the Management of Arterial Hypertension
+
+Organisation: European Society of Cardiology
+
+Year: 2024
+
+Topic: Hypertension
+
+Retrieval Score:
+21
+
+Matched Clinical Terms:
+hypertension
+
+Summary:
+Management of hypertension should be based on accurate blood pressure measurement and comprehensive cardiovascular risk assessment. Treatment strategies should be individualized according to patient characteristics.

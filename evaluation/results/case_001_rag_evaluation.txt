@@ -1,0 +1,90 @@
+========== RAG EVALUATION ==========
+
+Case: case_001
+
+========== RETRIEVAL QUERY ==========
+
+chest pain palpitations Patient reports intermittent chest discomfort and awareness of an irregular heartbeat. hypertension diabetes Irregular heartbeat reported. Provide a brief cardiology-focused assessment.
+
+========== RETRIEVED DOCUMENTS ==========
+
+--- Retrieved Document 1 ---
+Title: Chest pain of recent onset: assessment and diagnosis
+Organisation: NICE
+Year: 2016
+Topic: Chest Pain
+Keywords: ['chest pain', 'angina', 'acute coronary syndrome', 'troponin', 'ECG']
+Summary: Patients presenting with chest pain should undergo prompt clinical assessment, ECG evaluation, and appropriate cardiac biomarker testing when acute coronary syndrome is suspected. Further investigations should be guided by the clinical presentation and risk assessment.
+
+--- Retrieved Document 2 ---
+Title: Atrial fibrillation: diagnosis and management
+Organisation: NICE
+Year: 2021
+Topic: Atrial Fibrillation
+Keywords: ['atrial fibrillation', 'palpitations', 'irregular rhythm', 'ECG', 'Holter monitor']
+Summary: Patients with suspected atrial fibrillation should undergo a 12-lead ECG for rhythm confirmation. When symptoms are intermittent, ambulatory rhythm monitoring such as Holter monitoring may be appropriate.
+
+--- Retrieved Document 3 ---
+Title: ESC Guidelines for Acute Coronary Syndromes
+Organisation: European Society of Cardiology
+Year: 2023
+Topic: Acute Coronary Syndrome
+Keywords: ['acute coronary syndrome', 'chest pain', 'troponin', 'ECG', 'myocardial infarction']
+Summary: Patients presenting with symptoms suggestive of acute coronary syndrome should undergo prompt ECG assessment and cardiac biomarker evaluation. Clinical management should be guided by risk stratification and diagnostic findings.
+
+========== EVIDENCE CONTEXT PASSED TO AGENTS ==========
+
+Title: Chest pain of recent onset: assessment and diagnosis
+
+Organisation: NICE
+
+Year: 2016
+
+Topic: Chest Pain
+
+Retrieval Score:
+48
+
+Matched Clinical Terms:
+acute coronary syndrome, angina, chest, chest pain, pain, rhythm relevance
+
+Summary:
+Patients presenting with chest pain should undergo prompt clinical assessment, ECG evaluation, and appropriate cardiac biomarker testing when acute coronary syndrome is suspected. Further investigations should be guided by the clinical presentation and risk assessment.
+
+----------------------------------------
+
+Title: Atrial fibrillation: diagnosis and management
+
+Organisation: NICE
+
+Year: 2021
+
+Topic: Atrial Fibrillation
+
+Retrieval Score:
+37
+
+Matched Clinical Terms:
+atrial fibrillation, intermittent, irregular, irregular rhythm, palpitation, palpitations, rhythm relevance
+
+Summary:
+Patients with suspected atrial fibrillation should undergo a 12-lead ECG for rhythm confirmation. When symptoms are intermittent, ambulatory rhythm monitoring such as Holter monitoring may be appropriate.
+
+----------------------------------------
+
+Title: ESC Guidelines for Acute Coronary Syndromes
+
+Organisation: European Society of Cardiology
+
+Year: 2023
+
+Topic: Acute Coronary Syndrome
+
+Retrieval Score:
+36
+
+Matched Clinical Terms:
+acute coronary syndrome, chest, chest pain, myocardial infarction, pain, rhythm relevance
+
+Summary:
+Patients presenting with symptoms suggestive of acute coronary syndrome should undergo prompt ECG assessment and cardiac biomarker evaluation. Clinical management should be guided by risk stratification and diagnostic findings.

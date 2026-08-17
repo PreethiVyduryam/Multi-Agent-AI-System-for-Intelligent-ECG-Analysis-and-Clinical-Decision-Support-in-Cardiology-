@@ -1,0 +1,41 @@
+{
+  "case_id": "case_001",
+  "reference_units": [
+    "age:52",
+    "blood_pressure:145/95 mmhg",
+    "ecg:irregular heartbeat",
+    "heart_rate:115 bpm",
+    "history:diabetes",
+    "history:hypertension",
+    "oxygen_saturation:98%",
+    "sex:f",
+    "symptom:chest pain",
+    "symptom:palpitations"
+  ],
+  "prediction_units": [
+    "ecg:irregular heartbeat"
+  ],
+  "matched": [
+    "ecg:irregular heartbeat"
+  ],
+  "missing": [
+    "age:52",
+    "blood_pressure:145/95 mmhg",
+    "heart_rate:115 bpm",
+    "history:diabetes",
+    "history:hypertension",
+    "oxygen_saturation:98%",
+    "sex:f",
+    "symptom:chest pain",
+    "symptom:palpitations"
+  ],
+  "unexpected": [],
+  "metrics": {
+    "true_positives": 1,
+    "false_positives": 0,
+    "false_negatives": 9,
+    "precision": 1.0,
+    "recall": 0.1,
+    "f1": 0.18181818181818182
+  }
+}

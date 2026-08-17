@@ -1,0 +1,24 @@
+{
+  "case_id": "case_003",
+  "patient_information": {
+    "age": 59,
+    "sex": "F",
+    "symptoms": [
+      "exertional chest discomfort",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "patient_state": "Patient reports intermittent chest discomfort occurring mainly during physical activity, accompanied by shortness of breath and increased fatigue.",
+    "medical_history": [
+      "hypertension",
+      "hyperlipidaemia"
+    ],
+    "vital_signs": {
+      "heart_rate": 96,
+      "systolic_bp": 152,
+      "diastolic_bp": 92,
+      "oxygen_saturation": 96
+    },
+    "ecg": "Non-specific ST-T wave changes reported."
+  }
+}

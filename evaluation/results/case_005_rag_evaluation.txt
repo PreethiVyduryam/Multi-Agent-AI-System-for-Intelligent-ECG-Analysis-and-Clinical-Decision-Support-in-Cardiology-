@@ -1,0 +1,90 @@
+========== RAG EVALUATION ==========
+
+Case: case_005
+
+========== RETRIEVAL QUERY ==========
+
+shortness of breath ankle swelling fatigue Patient reports gradually worsening shortness of breath during physical activity, associated with ankle swelling and persistent fatigue. hypertension type 2 diabetes Voltage criteria for left ventricular hypertrophy with non-specific repolarisation changes. Provide a brief cardiology-focused assessment.
+
+========== RETRIEVED DOCUMENTS ==========
+
+--- Retrieved Document 1 ---
+Title: Chronic heart failure in adults: diagnosis and management
+Organisation: NICE
+Year: 2018
+Topic: Heart Failure
+Keywords: ['heart failure', 'breathlessness', 'fatigue', 'echocardiogram', 'cardiac function']
+Summary: Assessment of suspected heart failure includes clinical evaluation, appropriate investigations, and assessment of cardiac structure and function using techniques such as echocardiography.
+
+--- Retrieved Document 2 ---
+Title: ESC Guidelines for Heart Failure
+Organisation: European Society of Cardiology
+Year: 2023
+Topic: Heart Failure
+Keywords: ['heart failure', 'echocardiography', 'breathlessness', 'fatigue', 'cardiac function']
+Summary: Heart failure diagnosis relies on clinical assessment supported by imaging and laboratory investigations. Echocardiography remains central to evaluating cardiac structure and function.
+
+--- Retrieved Document 3 ---
+Title: Hypertension in adults: diagnosis and management
+Organisation: NICE
+Year: 2019
+Topic: Hypertension
+Keywords: ['hypertension', 'blood pressure', 'systolic pressure', 'cardiovascular risk']
+Summary: Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors.
+
+========== EVIDENCE CONTEXT PASSED TO AGENTS ==========
+
+Title: Chronic heart failure in adults: diagnosis and management
+
+Organisation: NICE
+
+Year: 2018
+
+Topic: Heart Failure
+
+Retrieval Score:
+30
+
+Matched Clinical Terms:
+breath, breathlessness, fatigue, heart failure
+
+Summary:
+Assessment of suspected heart failure includes clinical evaluation, appropriate investigations, and assessment of cardiac structure and function using techniques such as echocardiography.
+
+----------------------------------------
+
+Title: ESC Guidelines for Heart Failure
+
+Organisation: European Society of Cardiology
+
+Year: 2023
+
+Topic: Heart Failure
+
+Retrieval Score:
+30
+
+Matched Clinical Terms:
+breath, breathlessness, fatigue, heart failure
+
+Summary:
+Heart failure diagnosis relies on clinical assessment supported by imaging and laboratory investigations. Echocardiography remains central to evaluating cardiac structure and function.
+
+----------------------------------------
+
+Title: Hypertension in adults: diagnosis and management
+
+Organisation: NICE
+
+Year: 2019
+
+Topic: Hypertension
+
+Retrieval Score:
+21
+
+Matched Clinical Terms:
+hypertension
+
+Summary:
+Hypertension diagnosis requires accurate blood pressure measurement and cardiovascular risk assessment. Management decisions should consider blood pressure levels and individual patient risk factors.

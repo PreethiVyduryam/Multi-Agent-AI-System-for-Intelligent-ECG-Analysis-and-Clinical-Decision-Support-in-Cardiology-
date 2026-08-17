@@ -1,0 +1,19 @@
+{
+  "case_id": "case_002",
+  "expected_information": {
+    "age": 67,
+    "sex": "M",
+    "symptoms": [
+      "shortness of breath",
+      "dizziness"
+    ],
+    "medical_history": [
+      "hypertension",
+      "hyperlipidaemia"
+    ],
+    "heart_rate": "88 bpm",
+    "blood_pressure": "138/84 mmHg",
+    "oxygen_saturation": "97%",
+    "ecg": "sinus rhythm with occasional premature beats"
+  }
+}
